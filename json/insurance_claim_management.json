@@ -1,0 +1,65 @@
+[
+  {
+    "patient_details": {
+      "patient_id": "P1001",
+      "name": "Ravi Kumar",
+      "age": 45,
+      "gender": "Male"
+    },
+    "visit_summary": {
+      "date_of_visit": "2026-03-20",
+      "diagnosis": "Type 2 Diabetes",
+      "treatment": "Metformin therapy"
+    },
+    "claim_request": {
+      "claim_reference_id": "CLM6001",
+      "insurance_provider": "Star Health Insurance",
+      "policy_number": "POL9101",
+      "coverage_type": "Individual",
+      "claim_amount": 15000,
+      "claim_request_type": "Medication Reimbursement"
+    }
+  },
+  {
+    "patient_details": {
+      "patient_id": "P1003",
+      "name": "Suresh Reddy",
+      "age": 58,
+      "gender": "Male"
+    },
+    "visit_summary": {
+      "date_of_visit": "2026-03-15",
+      "diagnosis": "Hypertension",
+      "treatment": "Medication and monitoring"
+    },
+    "claim_request": {
+      "claim_reference_id": "CLM6003",
+      "insurance_provider": "ICICI Lombard",
+      "policy_number": "POL9103",
+      "coverage_type": "Individual",
+      "claim_amount": 12000,
+      "claim_request_type": "Chronic Disease Management"
+    }
+  },
+  {
+    "patient_details": {
+      "patient_id": "P1005",
+      "name": "Arjun Singh",
+      "age": 29,
+      "gender": "Male"
+    },
+    "visit_summary": {
+      "date_of_visit": "2026-03-12",
+      "diagnosis": "Arm Fracture",
+      "treatment": "Cast and X-ray"
+    },
+    "claim_request": {
+      "claim_reference_id": "CLM6005",
+      "insurance_provider": "Religare Health",
+      "policy_number": "POL9105",
+      "coverage_type": "Family Floater",
+      "claim_amount": 25000,
+      "claim_request_type": "Emergency Treatment"
+    }
+  }
+]

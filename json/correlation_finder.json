@@ -1,0 +1,14 @@
+[
+  {"Month": "Jan", "Revenue": 980000, "CustomerSatisfaction": 8.9, "MarketingSpend": 120000, "DeliveryTime": 3.2, "OperationalCost": 700000},
+  {"Month": "Feb", "Revenue": 1020000, "CustomerSatisfaction": 9.1, "MarketingSpend": 140000, "DeliveryTime": 2.9, "OperationalCost": 710000},
+  {"Month": "Mar", "Revenue": 950000, "CustomerSatisfaction": 8.5, "MarketingSpend": 100000, "DeliveryTime": 3.8, "OperationalCost": 680000},
+  {"Month": "Apr", "Revenue": 1100000, "CustomerSatisfaction": 9.3, "MarketingSpend": 160000, "DeliveryTime": 2.7, "OperationalCost": 720000},
+  {"Month": "May", "Revenue": 1150000, "CustomerSatisfaction": 9.5, "MarketingSpend": 170000, "DeliveryTime": 2.5, "OperationalCost": 740000},
+  {"Month": "Jun", "Revenue": 890000, "CustomerSatisfaction": 8.1, "MarketingSpend": 90000, "DeliveryTime": 4.0, "OperationalCost": 660000},
+  {"Month": "Jul", "Revenue": 970000, "CustomerSatisfaction": 8.7, "MarketingSpend": 110000, "DeliveryTime": 3.4, "OperationalCost": 695000},
+  {"Month": "Aug", "Revenue": 1080000, "CustomerSatisfaction": 9.0, "MarketingSpend": 150000, "DeliveryTime": 3.0, "OperationalCost": 710000},
+  {"Month": "Sep", "Revenue": 1130000, "CustomerSatisfaction": 9.4, "MarketingSpend": 165000, "DeliveryTime": 2.6, "OperationalCost": 735000},
+  {"Month": "Oct", "Revenue": 920000, "CustomerSatisfaction": 8.3, "MarketingSpend": 95000, "DeliveryTime": 3.9, "OperationalCost": 670000},
+  {"Month": "Nov", "Revenue": 1050000, "CustomerSatisfaction": 9.2, "MarketingSpend": 145000, "DeliveryTime": 2.8, "OperationalCost": 715000},
+  {"Month": "Dec", "Revenue": 1180000, "CustomerSatisfaction": 9.6, "MarketingSpend": 175000, "DeliveryTime": 2.4, "OperationalCost": 750000}
+]

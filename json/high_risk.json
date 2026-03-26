@@ -1,0 +1,42 @@
+[
+  {
+    "asset_class": "Equity Mutual Funds",
+    "allocation_percent": 30,
+    "description": "Diversified stock-based mutual funds"
+  },
+  {
+    "asset_class": "Mid/Small Cap Stocks",
+    "allocation_percent": 20,
+    "description": "High growth potential, high volatility"
+  },
+  {
+    "asset_class": "Cryptocurrency",
+    "allocation_percent": 15,
+    "description": "Digital assets with speculative value"
+  },
+  {
+    "asset_class": "REITs",
+    "allocation_percent": 10,
+    "description": "Real estate-backed dividend-yielding assets"
+  },
+  {
+    "asset_class": "Tech Sector Stocks",
+    "allocation_percent": 10,
+    "description": "High return potential from technology firms"
+  },
+  {
+    "asset_class": "Thematic Mutual Funds",
+    "allocation_percent": 5,
+    "description": "Focused sector-specific fund exposure"
+  },
+  {
+    "asset_class": "International ETFs",
+    "allocation_percent": 5,
+    "description": "Exposure to global markets (e.g., US, China)"
+  },
+  {
+    "asset_class": "Startup Crowdfunding",
+    "allocation_percent": 5,
+    "description": "Alternative investment, high risk/high return"
+  }
+]

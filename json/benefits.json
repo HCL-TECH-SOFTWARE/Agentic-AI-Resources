@@ -1,0 +1,37 @@
+[
+  {
+    "Plan Name": "Basic Health",
+    "Monthly Cost": 200,
+    "Coverage %": 70,
+    "Includes": ["General Health", "Emergency Care"],
+    "Plan Score": 75
+  },
+  {
+    "Plan Name": "Standard Health + Dental",
+    "Monthly Cost": 350,
+    "Coverage %": 80,
+    "Includes": ["General Health", "Emergency Care", "Dental"],
+    "Plan Score": 82
+  },
+  {
+    "Plan Name": "Premium Health + Vision",
+    "Monthly Cost": 480,
+    "Coverage %": 90,
+    "Includes": ["General Health", "Emergency Care", "Dental", "Vision"],
+    "Plan Score": 88
+  },
+  {
+    "Plan Name": "Premium Health + Retirement Boost",
+    "Monthly Cost": 600,
+    "Coverage %": 95,
+    "Includes": ["General Health", "Emergency Care", "Dental", "Vision", "Retirement Savings"],
+    "Plan Score": 93
+  },
+  {
+    "Plan Name": "Family Plus Bundle",
+    "Monthly Cost": 750,
+    "Coverage %": 97,
+    "Includes": ["General Health", "Emergency Care", "Dental", "Vision", "Maternity Care", "Child Health"],
+    "Plan Score": 96
+  }
+]

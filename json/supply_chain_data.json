@@ -1,0 +1,37 @@
+[
+  {
+    "productId": "P1001",
+    "productName": "Smart Sensor X1",
+    "leadTimeDays": 14,
+    "currentStock": 35,
+    "delayRisk": "High"
+  },
+  {
+    "productId": "P1002",
+    "productName": "Industrial Motor M5",
+    "leadTimeDays": 7,
+    "currentStock": 120,
+    "delayRisk": "Low"
+  },
+  {
+    "productId": "P1003",
+    "productName": "Automation Controller Z9",
+    "leadTimeDays": 11,
+    "currentStock": 45,
+    "delayRisk": "Medium"
+  },
+  {
+    "productId": "P1004",
+    "productName": "Servo Drive D8",
+    "leadTimeDays": 5,
+    "currentStock": 200,
+    "delayRisk": "Low"
+  },
+  {
+    "productId": "P1005",
+    "productName": "PLC Unit Q7",
+    "leadTimeDays": 16,
+    "currentStock": 22,
+    "delayRisk": "High"
+  }
+]

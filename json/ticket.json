@@ -1,0 +1,12 @@
+{
+  "ticketID": "TKT-2025-77B31",
+  "userID": "USR-88451",
+  "product": "ConnectSphere - Pro Plan",
+  "date_created": "2025-07-17",
+  "dispute_type": "Billing",
+  "description": "I was charged twice for my monthly subscription on July 15th. My statement shows two identical charges of ₹750. I have only one account and this has never happened before. Please reverse one of the charges immediately. My transaction IDs are CHG_12345 and CHG_12346.",
+  "metadata": {
+    "channel": "Email",
+    "priority": "High"
+  }
+}

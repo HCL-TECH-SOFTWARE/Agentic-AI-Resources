@@ -1,0 +1,252 @@
+[
+  {
+    "document_id": "DOC-2025-CLM-001",
+    "policy_no": "POL-10021",
+    "claim_ref": "CLM-HC-901",
+    "claimant_name": "Amit Verma",
+    "age": "42yrs",
+    "gender": "Male",
+    "hospital": {
+      "name": "Apollo Health City",
+      "admission": "2025-03-12",
+      "discharge": "2025-03-18",
+      "doctor": "Dr. Neha Kapoor"
+    },
+    "diagnosis": "Gall bladder stones",
+    "treatment": "Laparoscopic cholecystectomy",
+    "billing": [
+      {"item": "Surgery", "amount": "₹65,000"},
+      {"item": "Room", "amount": "₹10,000"},
+      {"item": "Medicines", "amount": "₹4,800"}
+    ],
+    "insurance_provider": "ICICI Lombard",
+    "coverage_type": "Hospitalization",
+    "total_amount": "₹79,800",
+    "submitted": "2025-03-20"
+  },
+  {
+    "document_id": "DOC-2025-CLM-002",
+    "policy_no": "POL-10022",
+    "claim_ref": "CLM-HC-902",
+    "claimant_name": "Riya Sen",
+    "age": "29",
+    "gender": "Female",
+    "hospital": {
+      "name": "Fortis Heart Institute",
+      "admission": "2025-04-01",
+      "discharge": "2025-04-09",
+      "doctor": "Dr. Ramesh Menon"
+    },
+    "diagnosis": "Atrial septal defect",
+    "treatment": "Cardiac surgery (ASD repair)",
+    "billing": [
+      {"item": "Surgery", "amount": "₹1,45,000"},
+      {"item": "ICU", "amount": "₹35,000"},
+      {"item": "Medicine", "amount": "₹12,600"}
+    ],
+    "insurance_provider": "HDFC ERGO",
+    "coverage_type": "Cardiac Treatment",
+    "total_amount": "₹1,92,600",
+    "submitted": "2025-04-12"
+  },
+  {
+    "document_id": "DOC-2025-CLM-003",
+    "policy_no": "POL-10023",
+    "claim_ref": "CLM-HC-903",
+    "claimant_name": "Mohit Sharma",
+    "age": "36",
+    "gender": "Male",
+    "hospital": {
+      "name": "Manipal Hospital",
+      "admission": "2025-05-10",
+      "discharge": "2025-05-15",
+      "doctor": "Dr. Priya Nair"
+    },
+    "diagnosis": "Kidney stone",
+    "treatment": "Lithotripsy",
+    "billing": [
+      {"item": "Procedure", "amount": "₹48,000"},
+      {"item": "Lab tests", "amount": "₹6,500"},
+      {"item": "Stay", "amount": "₹7,000"}
+    ],
+    "insurance_provider": "Star Health",
+    "coverage_type": "Surgery",
+    "total_amount": "₹61,500",
+    "submitted": "2025-05-18"
+  },
+  {
+    "document_id": "DOC-2025-CLM-004",
+    "policy_no": "POL-10024",
+    "claim_ref": "CLM-HC-904",
+    "claimant_name": "Sneha Iyer",
+    "age": "47",
+    "gender": "Female",
+    "hospital": {
+      "name": "Kokilaben Dhirubhai Hospital",
+      "admission": "2025-06-02",
+      "discharge": "2025-06-10",
+      "doctor": "Dr. Arun Deshmukh"
+    },
+    "diagnosis": "Diabetic foot infection",
+    "treatment": "Wound debridement and antibiotics",
+    "billing": [
+      {"item": "Ward", "amount": "₹18,000"},
+      {"item": "Surgery", "amount": "₹32,000"},
+      {"item": "Medicines", "amount": "₹5,400"}
+    ],
+    "insurance_provider": "Care Health Insurance",
+    "coverage_type": "Chronic Care",
+    "total_amount": "₹55,400",
+    "submitted": "2025-06-13"
+  },
+  {
+    "document_id": "DOC-2025-CLM-005",
+    "policy_no": "POL-10025",
+    "claim_ref": "CLM-HC-905",
+    "claimant_name": "Karan Malhotra",
+    "age": "51yrs",
+    "gender": "Male",
+    "hospital": {
+      "name": "AIIMS Delhi",
+      "admission": "2025-07-08",
+      "discharge": "2025-07-20",
+      "doctor": "Dr. Meenakshi Singh"
+    },
+    "diagnosis": "Heart valve replacement",
+    "treatment": "Mitral valve repair surgery",
+    "billing": [
+      {"item": "Operation Theatre", "amount": "₹1,80,000"},
+      {"item": "ICU", "amount": "₹45,000"},
+      {"item": "Medicines", "amount": "₹23,000"}
+    ],
+    "insurance_provider": "Bajaj Allianz",
+    "coverage_type": "Surgery",
+    "total_amount": "₹2,48,000",
+    "submitted": "2025-07-22"
+  },
+  {
+    "document_id": "DOC-2025-CLM-006",
+    "policy_no": "POL-10026",
+    "claim_ref": "CLM-HC-906",
+    "claimant_name": "Anjali Das",
+    "age": "32",
+    "gender": "Female",
+    "hospital": {
+      "name": "Medanta - The Medicity",
+      "admission": "2025-08-05",
+      "discharge": "2025-08-11",
+      "doctor": "Dr. Vivek Chaturvedi"
+    },
+    "diagnosis": "Appendicitis",
+    "treatment": "Laparoscopic appendectomy",
+    "billing": [
+      {"item": "Operation", "amount": "₹42,000"},
+      {"item": "Medicines", "amount": "₹4,800"},
+      {"item": "Room", "amount": "₹7,000"}
+    ],
+    "insurance_provider": "Max Bupa Health",
+    "coverage_type": "Emergency Surgery",
+    "total_amount": "₹53,800",
+    "submitted": "2025-08-13"
+  },
+  {
+    "document_id": "DOC-2025-CLM-007",
+    "policy_no": "POL-10027",
+    "claim_ref": "CLM-HC-907",
+    "claimant_name": "Ramesh Patel",
+    "age": "63",
+    "gender": "Male",
+    "hospital": {
+      "name": "Ruby Hall Clinic",
+      "admission": "2025-09-01",
+      "discharge": "2025-09-09",
+      "doctor": "Dr. Reema Tandon"
+    },
+    "diagnosis": "Hip replacement",
+    "treatment": "Total hip arthroplasty",
+    "billing": [
+      {"item": "Implant", "amount": "₹1,20,000"},
+      {"item": "Operation", "amount": "₹75,000"},
+      {"item": "Stay", "amount": "₹25,000"}
+    ],
+    "insurance_provider": "New India Assurance",
+    "coverage_type": "Orthopedic Surgery",
+    "total_amount": "₹2,20,000",
+    "submitted": "2025-09-12"
+  },
+  {
+    "document_id": "DOC-2025-CLM-008",
+    "policy_no": "POL-10028",
+    "claim_ref": "CLM-HC-908",
+    "claimant_name": "Priya Bhattacharya",
+    "age": "40",
+    "gender": "Female",
+    "hospital": {
+      "name": "Columbia Asia Hospital",
+      "admission": "2025-09-15",
+      "discharge": "2025-09-20",
+      "doctor": "Dr. Anand Raj"
+    },
+    "diagnosis": "Migraine and dehydration",
+    "treatment": "Neurology observation and IV therapy",
+    "billing": [
+      {"item": "Observation", "amount": "₹12,000"},
+      {"item": "Medicines", "amount": "₹3,400"},
+      {"item": "Tests", "amount": "₹2,600"}
+    ],
+    "insurance_provider": "Reliance General",
+    "coverage_type": "General Health",
+    "total_amount": "₹18,000",
+    "submitted": "2025-09-22"
+  },
+  {
+    "document_id": "DOC-2025-CLM-009",
+    "policy_no": "POL-10029",
+    "claim_ref": "CLM-HC-909",
+    "claimant_name": "Suresh Kumar",
+    "age": "54",
+    "gender": "Male",
+    "hospital": {
+      "name": "Max Super Speciality",
+      "admission": "2025-09-25",
+      "discharge": "2025-10-01",
+      "doctor": "Dr. Geeta Reddy"
+    },
+    "diagnosis": "Cataract (left eye)",
+    "treatment": "Phacoemulsification with lens implant",
+    "billing": [
+      {"item": "Surgery", "amount": "₹30,000"},
+      {"item": "Lens", "amount": "₹12,000"},
+      {"item": "Medicines", "amount": "₹2,400"}
+    ],
+    "insurance_provider": "Tata AIG",
+    "coverage_type": "Eye Care",
+    "total_amount": "₹44,400",
+    "submitted": "2025-10-03"
+  },
+  {
+    "document_id": "DOC-2025-CLM-010",
+    "policy_no": "POL-10030",
+    "claim_ref": "CLM-HC-910",
+    "claimant_name": "Deepa Joshi",
+    "age": "38",
+    "gender": "Female",
+    "hospital": {
+      "name": "Sahyadri Hospital",
+      "admission": "2025-10-05",
+      "discharge": "2025-10-10",
+      "doctor": "Dr. Rohan Batra"
+    },
+    "diagnosis": "Gallstone pancreatitis",
+    "treatment": "ERCP and laparoscopic cholecystectomy",
+    "billing": [
+      {"item": "Endoscopy", "amount": "₹38,000"},
+      {"item": "Surgery", "amount": "₹56,000"},
+      {"item": "Medicines", "amount": "₹6,500"}
+    ],
+    "insurance_provider": "Aditya Birla Health",
+    "coverage_type": "Surgical",
+    "total_amount": "₹1,00,500",
+    "submitted": "2025-10-13"
+  }
+]

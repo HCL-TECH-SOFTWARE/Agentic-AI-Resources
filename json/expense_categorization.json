@@ -1,0 +1,10 @@
+{
+  "transaction_id": "TXN1001",
+  "transaction_date": "2025-07-01",
+  "account_id": "ACC10293",
+  "merchant_name": "Uber India",
+  "description": "Airport travel expense",
+  "amount": "-850.00",
+  "currency": "INR",
+  "transaction_type": "Debit"
+}

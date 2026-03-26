@@ -1,0 +1,84 @@
+{
+  "id": "new_agent_uuid_placeholder",
+  "name": "New Agent Name Template",
+  "description": "A brief description of what this new agent manages or accomplishes.",
+  "edges": [
+    {
+      "source": {
+        "id": "source_subagent_id",
+        "name": "Source Subagent Name",
+        "role": "Source Subagent Role",
+        "scope": "Source Subagent Scope"
+      },
+      "target": {
+        "id": "target_subagent_id",
+        "name": "Target Subagent Name",
+        "role": "Target Subagent Role",
+        "scope": "Target Subagent Scope"
+      },
+      "edge_type": "SUBAGENT_TO_SUBAGENT"
+    }
+  ],
+  "llm": {
+    "id": "llm_id_placeholder",
+    "name": "LLM_NAME_PLACEHOLDER",
+    "llm_name": "GPT_4O_MINI",
+    "credential": "credential_uuid_placeholder",
+    "llm_configuration": {}
+  },
+  "start_nodes": [
+    {
+      "target": {
+        "id": "start_subagent_id",
+        "name": "Start Subagent Name",
+        "role": "Start Subagent Role",
+        "scope": "Start Subagent Scope",
+        "llm": "llm_id_placeholder",
+        "description": "",
+        "instructions": [
+          "1. Instruction for the starting sub-agent."
+        ],
+        "guardrails": [],
+        "actions": [
+          "action_id_placeholder"
+        ],
+        "agentic_type": "REACT_or_LLM"
+      },
+      "edge_type": "SUBAGENT"
+    }
+  ],
+  "end_nodes": [
+    {
+      "source": {
+        "id": "end_subagent_id",
+        "name": "End Subagent Name",
+        "role": "End Subagent Role",
+        "scope": "End Subagent Scope",
+        "llm": "llm_id_placeholder",
+        "description": "",
+        "instructions": [
+          "1. Instruction for the ending sub-agent."
+        ],
+        "guardrails": [],
+        "actions": [],
+        "agentic_type": "LLM"
+      },
+      "edge_type": "SUBAGENT"
+    }
+  ],
+  "status": "DRAFT",
+  "type": "TEMPLATE_or_CUSTOM",
+  "canvas": {},
+  "category": {
+    "id": "category_id_placeholder",
+    "name": "Category Name",
+    "description": "Category description",
+    "tag": null,
+    "library_id": "1"
+  },
+  "guard_pii": false,
+  "guard_jailbreak": false,
+  "enable_longtermmemory": false,
+  "guard": "",
+  "moderator": {}
+}

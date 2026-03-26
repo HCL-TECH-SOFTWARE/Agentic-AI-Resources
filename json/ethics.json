@@ -1,0 +1,110 @@
+{
+  "ethics_training": {
+    "sections": [
+      {
+        "title": "Introduction to Corporate Ethics",
+        "objective": "Understand the importance of ethics in the workplace and corporate integrity.",
+        "content": [
+          "Corporate Integrity: Employees are expected to act with honesty, fairness, and transparency in all business dealings. Integrity strengthens trust between the company, clients, and partners.",
+          "Responsible Business Practices: Follow policies that ensure accountability, compliance with laws, and alignment with corporate values. Avoid shortcuts that compromise ethical standards.",
+          "Reporting Violations: Employees should immediately report any suspected unethical behavior, fraud, or policy violations using the designated channels. Timely reporting protects the organization and its stakeholders."
+        ],
+        "example_scenario": {
+          "question": "An employee notices that a co-worker is manipulating client data to meet targets. What is the ethical way to respond?",
+          "answer": "Report the incident to the compliance officer or via the anonymous whistleblower system."
+        }
+      },
+      {
+        "title": "Anti-Bribery and Corruption Policies",
+        "objective": "Learn to identify and prevent bribery, corruption, and conflicts of interest.",
+        "content": [
+          "No Acceptance of Bribes or Kickbacks: Never accept gifts, money, or favors that could influence business decisions.",
+          "Conflicts of Interest Disclosure: Employees must disclose any relationships or activities that may affect objectivity or business judgment."
+        ],
+        "example_scenario": {
+          "question": "A vendor offers you a personal gift if you approve their contract early. Is it ethical?",
+          "answer": "No, accepting gifts that influence decisions is prohibited."
+        }
+      },
+      {
+        "title": "Confidentiality and Data Protection",
+        "objective": "Protect sensitive company and client information.",
+        "content": [
+          "Protect Sensitive Client Information: Do not share client data outside approved channels or unauthorized personnel.",
+          "GDPR and Internal Policies: Follow data protection laws and internal IT policies when handling personal or business data."
+        ],
+        "example_scenario": {
+          "question": "You accidentally receive an email containing a client's financial report not intended for you. What should you do?",
+          "answer": "Report it immediately, do not forward or use the information."
+        }
+      },
+      {
+        "title": "Workplace Conduct and Diversity",
+        "objective": "Promote respectful, inclusive, and safe workplace practices.",
+        "content": [
+          "Respectful Communication: Address colleagues professionally; avoid offensive language or behavior.",
+          "Anti-Harassment Guidelines: Maintain a harassment-free environment. Report incidents immediately.",
+          "Promoting Inclusion: Encourage participation from all team members regardless of background, gender, or identity."
+        ],
+        "example_scenario": {
+          "question": "A team member repeatedly interrupts colleagues from a certain department during meetings. What should you do?",
+          "answer": "Address it respectfully or report to HR if it continues."
+        }
+      },
+      {
+        "title": "Reporting Mechanisms and Whistleblower Policy",
+        "objective": "Ensure employees understand how to report unethical behavior safely.",
+        "content": [
+          "How to Report: Use designated internal reporting channels or compliance hotline.",
+          "Anonymous Whistleblower Channels: Employees can report without revealing their identity to prevent retaliation."
+        ],
+        "example_scenario": {
+          "question": "You notice irregularities in expense reporting. Which channel should you use to report it anonymously?",
+          "answer": "Use the company's anonymous whistleblower system or compliance email."
+        }
+      }
+    ],
+    "quiz_scenarios": [
+      {
+        "scenario": 1,
+        "description": "Identify ethical behavior in the workplace.",
+        "options": [
+          "Ignoring a policy violation to meet deadlines",
+          "Reporting a co-worker who misused company resources",
+          "Manipulating data to meet targets"
+        ],
+        "correct_answer_index": 1
+      },
+      {
+        "scenario": 2,
+        "description": "Identify bribery and conflict of interest situations.",
+        "options": [
+          "Accepting a gift from a supplier to influence contract approval",
+          "Disclosing a personal relationship that could impact a decision",
+          "Both of the above"
+        ],
+        "correct_answer_index": 2
+      },
+      {
+        "scenario": 3,
+        "description": "Data protection compliance.",
+        "options": [
+          "Sharing client data on a personal email for convenience",
+          "Following GDPR policies while handling sensitive information",
+          "Ignoring IT policies to finish a task quickly"
+        ],
+        "correct_answer_index": 1
+      },
+      {
+        "scenario": 4,
+        "description": "Workplace conduct.",
+        "options": [
+          "Encouraging inclusive participation in team meetings",
+          "Making jokes that offend colleagues",
+          "Excluding certain team members from discussions"
+        ],
+        "correct_answer_index": 0
+      }
+    ]
+  }
+}

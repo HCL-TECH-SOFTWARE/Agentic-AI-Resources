@@ -1,0 +1,114 @@
+{
+  "invoices": [
+    {
+      "Invoice ID": "INV-2025-091",
+      "Date": "2025-09-01",
+      "Supplier": "Alpha Supplies",
+      "Total Amount Due": 6500.00,
+      "Payment Terms": "Net 30",
+      "Items Purchased": [
+        {"Item": "Printer Paper A4", "Qty": 500, "Unit Price": 5.00, "Total": 2500.00},
+        {"Item": "Ink Cartridges", "Qty": 100, "Unit Price": 25.00, "Total": 2500.00},
+        {"Item": "Staplers", "Qty": 200, "Unit Price": 7.50, "Total": 1500.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-092",
+      "Date": "2025-09-05",
+      "Supplier": "Beta Electronics",
+      "Total Amount Due": 4250.00,
+      "Items Purchased": [
+        {"Item": "USB Cables 1m", "Qty": 200, "Unit Price": 2.50, "Total": 500.00},
+        {"Item": "Laptop Charger", "Qty": 50, "Unit Price": 45.00, "Total": 2250.00},
+        {"Item": "HDMI Cables", "Qty": 150, "Unit Price": 10.00, "Total": 1500.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-093",
+      "Date": "2025-09-10",
+      "Supplier": "Gamma Logistics",
+      "Total Amount Due": 8000.00,
+      "Items Purchased": [
+        {"Item": "Courier Service Fee", "Qty": 30, "Unit Price": 100.00, "Total": 3000.00},
+        {"Item": "Freight Charges", "Qty": 10, "Unit Price": 500.00, "Total": 5000.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-094",
+      "Date": "2025-09-12",
+      "Supplier": "Delta Foods",
+      "Total Amount Due": 2200.00,
+      "Items Purchased": [
+        {"Item": "Coffee Beans 1kg", "Qty": 50, "Unit Price": 20.00, "Total": 1000.00},
+        {"Item": "Tea Bags 100-pack", "Qty": 100, "Unit Price": 8.00, "Total": 800.00},
+        {"Item": "Milk 1L", "Qty": 200, "Unit Price": 2.00, "Total": 400.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-095",
+      "Date": "2025-09-15",
+      "Supplier": "Alpha Supplies",
+      "Total Amount Due": 4950.00,
+      "Items Purchased": [
+        {"Item": "Desk Chairs", "Qty": 20, "Unit Price": 150.00, "Total": 3000.00},
+        {"Item": "Whiteboards", "Qty": 10, "Unit Price": 120.00, "Total": 1200.00},
+        {"Item": "Pens Gel Ink", "Qty": 500, "Unit Price": 1.50, "Total": 750.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-096",
+      "Date": "2025-09-18",
+      "Supplier": "Beta Electronics",
+      "Total Amount Due": 10500.00,
+      "Items Purchased": [
+        {"Item": "Monitors 24 inch", "Qty": 30, "Unit Price": 200.00, "Total": 6000.00},
+        {"Item": "External Hard Drives 1TB", "Qty": 20, "Unit Price": 100.00, "Total": 2000.00},
+        {"Item": "Wireless Mouse", "Qty": 100, "Unit Price": 25.00, "Total": 2500.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-097",
+      "Date": "2025-09-20",
+      "Supplier": "Gamma Logistics",
+      "Total Amount Due": 4600.00,
+      "Items Purchased": [
+        {"Item": "Express Delivery Fee", "Qty": 15, "Unit Price": 150.00, "Total": 2250.00},
+        {"Item": "Packaging Materials", "Qty": 500, "Unit Price": 1.50, "Total": 750.00},
+        {"Item": "Warehouse Handling Fee", "Qty": 20, "Unit Price": 80.00, "Total": 1600.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-098",
+      "Date": "2025-09-22",
+      "Supplier": "Delta Foods",
+      "Total Amount Due": 1850.00,
+      "Items Purchased": [
+        {"Item": "Juice Packs 500ml", "Qty": 150, "Unit Price": 4.00, "Total": 600.00},
+        {"Item": "Snacks Assorted Box", "Qty": 50, "Unit Price": 15.00, "Total": 750.00},
+        {"Item": "Bread 500g", "Qty": 200, "Unit Price": 2.50, "Total": 500.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-099",
+      "Date": "2025-09-25",
+      "Supplier": "Alpha Supplies",
+      "Total Amount Due": 4100.00,
+      "Items Purchased": [
+        {"Item": "Filing Cabinets", "Qty": 15, "Unit Price": 200.00, "Total": 3000.00},
+        {"Item": "Desk Lamps LED", "Qty": 30, "Unit Price": 20.00, "Total": 600.00},
+        {"Item": "Clipboards", "Qty": 100, "Unit Price": 5.00, "Total": 500.00}
+      ]
+    },
+    {
+      "Invoice ID": "INV-2025-100",
+      "Date": "2025-09-28",
+      "Supplier": "Beta Electronics",
+      "Total Amount Due": 3950.00,
+      "Items Purchased": [
+        {"Item": "Router Wireless", "Qty": 20, "Unit Price": 75.00, "Total": 1500.00},
+        {"Item": "Network Switch 24-Port", "Qty": 5, "Unit Price": 250.00, "Total": 1250.00},
+        {"Item": "Headsets Wired", "Qty": 40, "Unit Price": 30.00, "Total": 1200.00}
+      ]
+    }
+  ]
+}

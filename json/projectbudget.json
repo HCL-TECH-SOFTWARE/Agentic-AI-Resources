@@ -1,0 +1,35 @@
+{
+  "projectID": "PROJ-Q3-Marketing",
+  "projectName": "Q3 Digital Marketing Campaign",
+  "retrievedTimestamp": "2025-07-18T16:15:00Z",
+  "transactions": [
+    {
+      "transactionID": "TXN-001",
+      "date": "2025-07-05",
+      "vendor": "Google Ads",
+      "description": "Search campaign spend",
+      "amount": 75000
+    },
+    {
+      "transactionID": "TXN-002",
+      "date": "2025-07-10",
+      "vendor": "Facebook, Inc.",
+      "description": "Social media ads",
+      "amount": 50000
+    },
+    {
+      "transactionID": "TXN-003",
+      "date": "2025-07-15",
+      "vendor": "Content Creators Inc.",
+      "description": "Influencer collaboration",
+      "amount": 125000
+    },
+    {
+      "transactionID": "TXN-004",
+      "date": "2025-07-18",
+      "vendor": "Mailchimp",
+      "description": "Email campaign services",
+      "amount": 25000
+    }
+  ]
+}

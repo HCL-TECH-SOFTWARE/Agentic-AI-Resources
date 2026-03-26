@@ -1,0 +1,9 @@
+{
+  "Scenario": "A - In-Warranty Display Issue",
+  "Customer": "Sarah Johnson",
+  "Product": "TechFlow ProBook 15X (TF-PB15X-001)",
+  "Purchase Date": "2023-06-15",
+  "Issue": "Flickering display, intermittent black screen",
+  "Warranty Status": "In warranty (8 months remaining)",
+  "Expected Resolution": "LCD cable replacement, covered under warranty"
+}

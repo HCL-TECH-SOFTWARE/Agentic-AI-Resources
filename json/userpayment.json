@@ -1,0 +1,33 @@
+{
+  "userID": "USR-94301",
+  "accountHistory": [
+    {
+      "accountType": "Credit Card",
+      "lender": "ICICI Bank",
+      "payments": [
+        { "dueDate": "2025-07-05", "paymentDate": "2025-07-03", "amountPaid": 25000, "status": "Paid On-Time" },
+        { "dueDate": "2025-06-05", "paymentDate": "2025-06-05", "amountPaid": 32000, "status": "Paid On-Time" },
+        { "dueDate": "2025-05-05", "paymentDate": "2025-05-04", "amountPaid": 28000, "status": "Paid On-Time" },
+        { "dueDate": "2025-04-05", "paymentDate": "2025-04-08", "amountPaid": 22000, "status": "Paid 3 Days Late" },
+        { "dueDate": "2025-03-05", "paymentDate": "2025-03-05", "amountPaid": 35000, "status": "Paid On-Time" }
+      ]
+    },
+    {
+      "accountType": "Personal Loan",
+      "lender": "Bajaj Finserv",
+      "payments": [
+        { "dueDate": "2025-07-10", "paymentDate": "2025-07-10", "amountPaid": 15000, "status": "Paid On-Time" },
+        { "dueDate": "2025-06-10", "paymentDate": "2025-06-10", "amountPaid": 15000, "status": "Paid On-Time" },
+        { "dueDate": "2025-05-10", "paymentDate": "2025-05-10", "amountPaid": 15000, "status": "Paid On-Time" }
+      ]
+    },
+    {
+      "accountType": "Utility",
+      "provider": "BESCOM Electricity",
+      "payments": [
+        { "dueDate": "2025-06-20", "paymentDate": "2025-06-18", "amountPaid": 2500, "status": "Paid On-Time" },
+        { "dueDate": "2025-05-20", "paymentDate": "2025-05-19", "amountPaid": 2300, "status": "Paid On-Time" }
+      ]
+    }
+  ]
+}

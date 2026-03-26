@@ -1,0 +1,107 @@
+[
+  {
+    "Event": "Global Semiconductor Shortage Recovery",
+    "Date": "2026-05-01",
+    "Impact": "Positive",
+    "Category": "Microcontrollers",
+    "Description": "Increased foundry outputs are expected to lower component costs."
+  },
+  {
+    "Event": "STEM Education Procurement Cycle",
+    "Date": "2026-07-20",
+    "Impact": "Positive",
+    "Category": "Microcontrollers",
+    "Description": "School and university lab procurement boosts demand for entry-level controller boards."
+  },
+  {
+    "Event": "Post-Holiday Maker Slowdown",
+    "Date": "2026-01-25",
+    "Impact": "Negative",
+    "Category": "Microcontrollers",
+    "Description": "Consumer hobby projects decline after year-end purchases, reducing short-term reorder velocity."
+  },
+  {
+    "Event": "Autonomous Vehicle Tariff Increase",
+    "Date": "2026-06-15",
+    "Impact": "Negative",
+    "Category": "Sensors",
+    "Description": "New trade tariffs will slightly dampen demand for automotive sensors."
+  },
+  {
+    "Event": "Industrial Automation Budget Expansion",
+    "Date": "2026-04-28",
+    "Impact": "Positive",
+    "Category": "Sensors",
+    "Description": "Factory modernization projects increase procurement of proximity and motion sensors."
+  },
+  {
+    "Event": "Monsoon Logistics Disruption",
+    "Date": "2026-08-05",
+    "Impact": "Negative",
+    "Category": "Sensors",
+    "Description": "Shipping delays and warehouse backlogs temporarily suppress fulfilled sensor volumes."
+  },
+  {
+    "Event": "Enterprise AI Adoption Boom",
+    "Date": "2026-04-10",
+    "Impact": "Positive",
+    "Category": "AI Processors",
+    "Description": "Widespread adoption of localized AI models driving edge module demand."
+  },
+  {
+    "Event": "Data Center Energy Cost Spike",
+    "Date": "2026-09-12",
+    "Impact": "Negative",
+    "Category": "AI Processors",
+    "Description": "Rising compute and cooling costs cause some buyers to defer high-performance module upgrades."
+  },
+  {
+    "Event": "Government Edge AI Grant Program",
+    "Date": "2026-11-03",
+    "Impact": "Positive",
+    "Category": "AI Processors",
+    "Description": "Public-sector grants accelerate deployments of embedded AI systems in smart infrastructure."
+  },
+  {
+    "Event": "Consumer Electronics Production Ramp",
+    "Date": "2026-05-22",
+    "Impact": "Positive",
+    "Category": "Connectors",
+    "Description": "OEM pre-launch manufacturing cycles increase bulk orders for USB-C and board connectors."
+  },
+  {
+    "Event": "Commodity Metal Price Volatility",
+    "Date": "2026-07-08",
+    "Impact": "Negative",
+    "Category": "Connectors",
+    "Description": "Input cost uncertainty pressures connector margins and slows discretionary stocking."
+  },
+  {
+    "Event": "Holiday Accessory Demand Spike",
+    "Date": "2026-10-18",
+    "Impact": "Positive",
+    "Category": "Connectors",
+    "Description": "Accessory bundling across retail channels drives temporary uplift in connector demand."
+  },
+  {
+    "Event": "Contract Manufacturing Expansion",
+    "Date": "2026-06-02",
+    "Impact": "Positive",
+    "Category": "PCB Boards",
+    "Description": "New EMS contracts increase recurring demand for multi-layer PCB board fabrication."
+  },
+  {
+    "Event": "Environmental Compliance Revalidation",
+    "Date": "2026-08-22",
+    "Impact": "Negative",
+    "Category": "PCB Boards",
+    "Description": "Temporary line audits and process updates reduce short-term PCB throughput."
+  },
+  {
+    "Event": "Prototype Cycle Acceleration",
+    "Date": "2026-03-30",
+    "Impact": "Positive",
+    "Category": "PCB Boards",
+    "Description": "Faster product iteration cycles increase small-batch and mid-volume PCB board orders."
+  }
+]

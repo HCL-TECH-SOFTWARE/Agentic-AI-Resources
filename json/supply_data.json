@@ -1,0 +1,25 @@
+{
+  "supply_data": [
+    {
+      "product_id": "P1001",
+      "product_name": "Wireless Earbuds",
+      "lead_time_days": 5,
+      "delay_risk": "Low",
+      "notes": "Stable supplier availability"
+    },
+    {
+      "product_id": "P1002",
+      "product_name": "Smart Watch",
+      "lead_time_days": 15,
+      "delay_risk": "High",
+      "notes": "Chip shortage impacting production"
+    },
+    {
+      "product_id": "P1003",
+      "product_name": "Gaming Mouse",
+      "lead_time_days": 7,
+      "delay_risk": "Moderate",
+      "notes": "Minor shipping delays"
+    }
+  ]
+}

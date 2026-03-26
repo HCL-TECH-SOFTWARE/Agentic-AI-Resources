@@ -1,0 +1,463 @@
+{
+  "procurement_log": [
+    {
+      "Date": "2025-09-01",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Printer Paper A4",
+      "Quantity": 500,
+      "Unit Cost": 5.00,
+      "Total Cost": 2500.00
+    },
+    {
+      "Date": "2025-09-03",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "USB Cables 1m",
+      "Quantity": 200,
+      "Unit Cost": 2.50,
+      "Total Cost": 500.00
+    },
+    {
+      "Date": "2025-09-05",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Courier Service Fee",
+      "Quantity": 30,
+      "Unit Cost": 100.00,
+      "Total Cost": 3000.00
+    },
+    {
+      "Date": "2025-09-07",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Ink Cartridges",
+      "Quantity": 100,
+      "Unit Cost": 25.00,
+      "Total Cost": 2500.00
+    },
+    {
+      "Date": "2025-09-10",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Coffee Beans 1kg",
+      "Quantity": 50,
+      "Unit Cost": 20.00,
+      "Total Cost": 1000.00
+    },
+    {
+      "Date": "2025-09-12",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Laptop Charger",
+      "Quantity": 50,
+      "Unit Cost": 45.00,
+      "Total Cost": 2250.00
+    },
+    {
+      "Date": "2025-09-15",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Freight Charges",
+      "Quantity": 10,
+      "Unit Cost": 500.00,
+      "Total Cost": 5000.00
+    },
+    {
+      "Date": "2025-09-17",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Staplers",
+      "Quantity": 200,
+      "Unit Cost": 7.50,
+      "Total Cost": 1500.00
+    },
+    {
+      "Date": "2025-09-20",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Tea Bags 100-pack",
+      "Quantity": 100,
+      "Unit Cost": 8.00,
+      "Total Cost": 800.00
+    },
+    {
+      "Date": "2025-09-22",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "HDMI Cables",
+      "Quantity": 150,
+      "Unit Cost": 10.00,
+      "Total Cost": 1500.00
+    },
+    {
+      "Date": "2025-09-25",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Packaging Materials",
+      "Quantity": 500,
+      "Unit Cost": 1.50,
+      "Total Cost": 750.00
+    },
+    {
+      "Date": "2025-09-28",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Desk Chairs",
+      "Quantity": 20,
+      "Unit Cost": 150.00,
+      "Total Cost": 3000.00
+    },
+    {
+      "Date": "2025-09-30",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Milk 1L",
+      "Quantity": 200,
+      "Unit Cost": 2.00,
+      "Total Cost": 400.00
+    },
+    {
+      "Date": "2025-10-02",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Monitors 24 inch",
+      "Quantity": 30,
+      "Unit Cost": 200.00,
+      "Total Cost": 6000.00
+    },
+    {
+      "Date": "2025-10-04",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Express Delivery Fee",
+      "Quantity": 15,
+      "Unit Cost": 150.00,
+      "Total Cost": 2250.00
+    },
+    {
+      "Date": "2025-10-05",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Whiteboards",
+      "Quantity": 10,
+      "Unit Cost": 120.00,
+      "Total Cost": 1200.00
+    },
+    {
+      "Date": "2025-10-06",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Snacks Assorted Box",
+      "Quantity": 50,
+      "Unit Cost": 15.00,
+      "Total Cost": 750.00
+    },
+    {
+      "Date": "2025-10-07",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Wireless Mouse",
+      "Quantity": 100,
+      "Unit Cost": 25.00,
+      "Total Cost": 2500.00
+    },
+    {
+      "Date": "2025-10-08",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Warehouse Handling Fee",
+      "Quantity": 20,
+      "Unit Cost": 80.00,
+      "Total Cost": 1600.00
+    },
+    {
+      "Date": "2025-10-09",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Pens Gel Ink",
+      "Quantity": 500,
+      "Unit Cost": 1.50,
+      "Total Cost": 750.00
+    },
+    {
+      "Date": "2025-10-10",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Sugar 1kg",
+      "Quantity": 100,
+      "Unit Cost": 3.00,
+      "Total Cost": 300.00
+    },
+    {
+      "Date": "2025-10-11",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Keyboard Mechanical",
+      "Quantity": 50,
+      "Unit Cost": 60.00,
+      "Total Cost": 3000.00
+    },
+    {
+      "Date": "2025-10-12",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Pallet Handling Fee",
+      "Quantity": 15,
+      "Unit Cost": 200.00,
+      "Total Cost": 1000.00
+    },
+    {
+      "Date": "2025-10-13",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Notebooks A5",
+      "Quantity": 300,
+      "Unit Cost": 2.50,
+      "Total Cost": 750.00
+    },
+    {
+      "Date": "2025-10-14",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Juice Packs 500ml",
+      "Quantity": 150,
+      "Unit Cost": 4.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-10-15",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "External Hard Drives 1TB",
+      "Quantity": 20,
+      "Unit Cost": 100.00,
+      "Total Cost": 2000.00
+    },
+    {
+      "Date": "2025-10-16",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Express Courier",
+      "Quantity": 10,
+      "Unit Cost": 120.00,
+      "Total Cost": 1200.00
+    },
+    {
+      "Date": "2025-10-17",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Filing Cabinets",
+      "Quantity": 15,
+      "Unit Cost": 200.00,
+      "Total Cost": 3000.00
+    },
+    {
+      "Date": "2025-10-18",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Bottled Water 1L",
+      "Quantity": 300,
+      "Unit Cost": 1.50,
+      "Total Cost": 450.00
+    },
+    {
+      "Date": "2025-10-19",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Projectors",
+      "Quantity": 5,
+      "Unit Cost": 500.00,
+      "Total Cost": 2500.00
+    },
+    {
+      "Date": "2025-10-20",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Transport Insurance",
+      "Quantity": 1,
+      "Unit Cost": 1000.00,
+      "Total Cost": 1000.00
+    },
+    {
+      "Date": "2025-10-21",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Office Chairs Ergonomic",
+      "Quantity": 10,
+      "Unit Cost": 180.00,
+      "Total Cost": 1800.00
+    },
+    {
+      "Date": "2025-10-22",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Bread 500g",
+      "Quantity": 200,
+      "Unit Cost": 2.50,
+      "Total Cost": 500.00
+    },
+    {
+      "Date": "2025-10-23",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Router Wireless",
+      "Quantity": 20,
+      "Unit Cost": 75.00,
+      "Total Cost": 1500.00
+    },
+    {
+      "Date": "2025-10-24",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Fuel Surcharge",
+      "Quantity": 1,
+      "Unit Cost": 1500.00,
+      "Total Cost": 1500.00
+    },
+    {
+      "Date": "2025-10-25",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Calculator Scientific",
+      "Quantity": 50,
+      "Unit Cost": 12.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-10-26",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Cheese 1kg",
+      "Quantity": 100,
+      "Unit Cost": 16.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-10-27",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Network Switch 24-Port",
+      "Quantity": 5,
+      "Unit Cost": 250.00,
+      "Total Cost": 1250.00
+    },
+    {
+      "Date": "2025-10-28",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Delivery Packaging",
+      "Quantity": 200,
+      "Unit Cost": 2.50,
+      "Total Cost": 500.00
+    },
+    {
+      "Date": "2025-10-29",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Desk Lamps LED",
+      "Quantity": 30,
+      "Unit Cost": 20.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-10-30",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Fruits Mixed Box",
+      "Quantity": 50,
+      "Unit Cost": 12.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-10-31",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Headsets Wired",
+      "Quantity": 40,
+      "Unit Cost": 30.00,
+      "Total Cost": 1200.00
+    },
+    {
+      "Date": "2025-11-01",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Customs Clearance Fee",
+      "Quantity": 15,
+      "Unit Cost": 300.00,
+      "Total Cost": 1500.00
+    },
+    {
+      "Date": "2025-11-02",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Whiteboard Markers",
+      "Quantity": 100,
+      "Unit Cost": 2.00,
+      "Total Cost": 200.00
+    },
+    {
+      "Date": "2025-11-03",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Eggs 12-pack",
+      "Quantity": 150,
+      "Unit Cost": 3.00,
+      "Total Cost": 450.00
+    },
+    {
+      "Date": "2025-11-04",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Laptop Stand Adjustable",
+      "Quantity": 30,
+      "Unit Cost": 40.00,
+      "Total Cost": 1200.00
+    },
+    {
+      "Date": "2025-11-05",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Warehouse Storage Fee",
+      "Quantity": 1,
+      "Unit Cost": 2000.00,
+      "Total Cost": 2000.00
+    },
+    {
+      "Date": "2025-11-06",
+      "Supplier Name": "Alpha Supplies",
+      "Category": "Office",
+      "Item Description": "Clipboards",
+      "Quantity": 100,
+      "Unit Cost": 5.00,
+      "Total Cost": 500.00
+    },
+    {
+      "Date": "2025-11-07",
+      "Supplier Name": "Delta Foods",
+      "Category": "Cafeteria",
+      "Item Description": "Sandwich Packs",
+      "Quantity": 100,
+      "Unit Cost": 6.00,
+      "Total Cost": 600.00
+    },
+    {
+      "Date": "2025-11-08",
+      "Supplier Name": "Beta Electronics",
+      "Category": "Electronics",
+      "Item Description": "Monitor Stand",
+      "Quantity": 20,
+      "Unit Cost": 35.00,
+      "Total Cost": 700.00
+    },
+    {
+      "Date": "2025-11-09",
+      "Supplier Name": "Gamma Logistics",
+      "Category": "Shipping",
+      "Item Description": "Return Handling Fee",
+      "Quantity": 10,
+      "Unit Cost": 50.00,
+      "Total Cost": 500.00
+    }
+  ]
+}

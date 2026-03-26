@@ -1,0 +1,64 @@
+{
+  "Contracts": [
+    {
+      "ContractID": "C001",
+      "ContractName": "Software Maintenance Agreement",
+      "ClientName": "TechNova Solutions Pvt. Ltd.",
+      "Department": "IT",
+      "StartDate": "2023-11-01",
+      "EndDate": "2025-10-25",
+      "RenewalTerms": "Auto-renewal every 12 months with mutual consent",
+      "Status": "Active"
+    },
+    {
+      "ContractID": "C002",
+      "ContractName": "Facility Management Contract",
+      "ClientName": "GreenScape Services",
+      "Department": "Operations",
+      "StartDate": "2022-04-01",
+      "EndDate": "2025-11-10",
+      "RenewalTerms": "Requires 60-day notice before expiry for renewal",
+      "Status": "Active"
+    },
+    {
+      "ContractID": "C003",
+      "ContractName": "Cloud Hosting Agreement",
+      "ClientName": "SkyNet Technologies",
+      "Department": "IT",
+      "StartDate": "2024-01-15",
+      "EndDate": "2025-12-30",
+      "RenewalTerms": "Annual renewal upon payment confirmation",
+      "Status": "Active"
+    },
+    {
+      "ContractID": "C004",
+      "ContractName": "Consultancy Services Contract",
+      "ClientName": "Apex Advisory LLP",
+      "Department": "Finance",
+      "StartDate": "2023-06-01",
+      "EndDate": "2025-10-20",
+      "RenewalTerms": "Manual renewal with new rate agreement",
+      "Status": "Active"
+    },
+    {
+      "ContractID": "C005",
+      "ContractName": "HR Payroll Outsourcing",
+      "ClientName": "WorkWise HR Solutions",
+      "Department": "HR",
+      "StartDate": "2022-10-01",
+      "EndDate": "2025-08-30",
+      "RenewalTerms": "Renewal upon evaluation of performance KPIs",
+      "Status": "Expired"
+    },
+    {
+      "ContractID": "C006",
+      "ContractName": "Network Security Maintenance",
+      "ClientName": "SecureNet Pvt. Ltd.",
+      "Department": "IT",
+      "StartDate": "2024-03-15",
+      "EndDate": "2025-11-12",
+      "RenewalTerms": "Auto-renew unless terminated 30 days before expiry",
+      "Status": "Active"
+    }
+  ]
+}

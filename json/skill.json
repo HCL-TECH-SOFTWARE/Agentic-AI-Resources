@@ -1,0 +1,56 @@
+{
+  "employee_id": "EMP1027",
+  "name": "Rohan Mehta",
+  "current_role": "Senior Data Analyst",
+  "department": "Analytics",
+  "years_of_experience": 5,
+  "manager_feedback_score": 3.8,
+  "overall_performance_rating": 3.6,
+  "skills": [
+    {
+      "skill_name": "Python Programming",
+      "current_level": 3,
+      "performance_score": 1.1,
+      "last_training_completed": "2024-03-12"
+    },
+    {
+      "skill_name": "SQL & Data Querying",
+      "current_level": 2,
+      "performance_score": 1.3,
+      "last_training_completed": "2023-11-05"
+    },
+    {
+      "skill_name": "Data Visualization (Power BI / Tableau)",
+      "current_level": 3,
+      "performance_score": 1.0,
+      "last_training_completed": "2024-06-10"
+    },
+    {
+      "skill_name": "Statistical Modeling",
+      "current_level": 2,
+      "performance_score": 1.5,
+      "last_training_completed": "2022-09-15"
+    },
+    {
+      "skill_name": "Machine Learning Fundamentals",
+      "current_level": 1,
+      "performance_score": 1.4,
+      "last_training_completed": null
+    },
+    {
+      "skill_name": "Business Communication",
+      "current_level": 4,
+      "performance_score": 0.9,
+      "last_training_completed": "2024-01-20"
+    },
+    {
+      "skill_name": "Leadership & Mentoring",
+      "current_level": 2,
+      "performance_score": 1.2,
+      "last_training_completed": null
+    }
+  ],
+  "career_goal": "Lead Data Scientist within 2 years",
+  "promotion_eligibility_status": "Under Review",
+  "previous_training_hours_completed_last_year": 48
+}

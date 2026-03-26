@@ -1,0 +1,74 @@
+{
+  "assessmentResults": {
+    "requestId": "SRA-FHC-20250619-001",
+    "generatedAt": "2025-06-19T17:25:00Z",
+    "assessments": [
+      {
+        "supplierId": "SUP-MNF-001",
+        "supplierName": "Industrial Components Inc.",
+        "overallRiskScore": 75,
+        "overallRiskLevel": "Moderate Risk",
+        "categoryBreakdown": [
+          {
+            "category": "Financial Health Check",
+            "score": 70,
+            "level": "Moderate Risk",
+            "findings": "Credit score (680) is average. Debt-to-Equity ratio (1.5) indicates moderate leverage. Cash flow from operations shows slight decline in Q1 2025.",
+            "metrics": {
+              "CreditScore": 680,
+              "DebtToEquityRatio": 1.5,
+              "CurrentRatio": 1.2,
+              "ProfitabilityTrends": "Stable",
+              "CashFlowStatementSummary": "Slight decline in operational cash flow Q1 2025."
+            },
+            "justification": "While generally stable, the recent dip in cash flow and moderate leverage suggest potential vulnerability to economic downturns. Requires closer monitoring."
+          },
+          {
+            "category": "Operational Risk",
+            "score": 80,
+            "level": "Low Risk",
+            "findings": "Multiple production sites reduce single-point-of-failure risk. Strong quality control protocols.",
+            "justification": "Diversified operations and robust quality systems minimize operational disruptions."
+          },
+          {
+            "category": "Geopolitical Risk",
+            "score": 65,
+            "level": "Moderate Risk",
+            "findings": "Primary manufacturing base in Region X, which has experienced recent political unrest affecting logistics.",
+            "justification": "Dependency on a region with recent instability poses a moderate risk to supply chain continuity."
+          },
+          {
+            "category": "Compliance & Ethics",
+            "score": 90,
+            "level": "Low Risk",
+            "findings": "Clean audit record, active certifications for ISO standards.",
+            "justification": "No identified compliance issues or ethical concerns. Strong adherence to industry standards."
+          },
+          {
+            "category": "Environmental, Social, and Governance (ESG)",
+            "score": 75,
+            "level": "Low-Moderate Risk",
+            "findings": "Good environmental practices. Minor public criticism regarding labor conditions for contract workers in 2023, addressed by supplier.",
+            "justification": "Proactive environmental efforts are positive. Past labor issue, while resolved, merits ongoing monitoring."
+          }
+        ],
+        "mitigationStrategies": [
+          "Request updated contingency plans for production in Region X.",
+          "Consider dual-sourcing critical components currently supplied solely by Industrial Components Inc.",
+          "Schedule a follow-up review on their cash flow recovery in Q2/Q3 2025."
+        ],
+        "overallSummary": "Industrial Components Inc. presents a moderate overall risk profile, primarily driven by financial health and geopolitical factors. Their operational and compliance areas are strong. Mitigation actions are recommended for supply continuity."
+      },
+      {
+        "supplierId": "SUP-LOG-002",
+        "supplierName": "Logistics Solutions Co.",
+        "overallRiskScore": 88,
+        "overallRiskLevel": "Low Risk",
+        "categoryBreakdown": [
+        ],
+        "mitigationStrategies": [],
+        "overallSummary": "Logistics Solutions Co. maintains a low overall risk profile with strong performance across all assessed categories."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "medical_records": [
+    {
+      "Patient ID": "P-1029",
+      "Name": "Rahul Verma",
+      "Age": "45",
+      "Gender": "Male",
+      "Diagnosis": "Type 2 Diabetes, Hypertension",
+      "Treatment": "Metformin 500mg daily, Losartan 50mg daily",
+      "Date of Visit": "2025-10-12",
+      "Consulting Doctor": "Dr. N. Sharma",
+      "Hospital Name": "CareWell Multispeciality Hospital",
+      "Claim Reference ID": "C-INS-9012"
+    },
+    {
+      "Patient ID": "P-1030",
+      "Name": "Meena Iyer",
+      "Age": "62",
+      "Gender": "Female",
+      "Diagnosis": "Hip Replacement Surgery",
+      "Treatment": "Full left hip replacement procedure, post-surgery physiotherapy",
+      "Date of Visit": "2025-09-29",
+      "Consulting Doctor": "Dr. A. Rao",
+      "Hospital Name": "Apex Orthocare",
+      "Claim Reference ID": "C-INS-9013"
+    },
+    {
+      "Patient ID": "P-1031",
+      "Name": "Ramesh Gupta",
+      "Age": "54",
+      "Gender": "Male",
+      "Diagnosis": "Acute Bronchitis",
+      "Treatment": "Antibiotics, Nebulization, 3-day hospital stay",
+      "Date of Visit": "2025-10-10",
+      "Consulting Doctor": "Dr. P. Mehta",
+      "Hospital Name": "Sunrise Health Center",
+      "Claim Reference ID": "C-INS-9014"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "userId": 123,
+  "age": 30,
+  "employment_type": "salaried",
+  "monthly_income": 100000,
+  "monthly_expenses": 60000,
+  "savings_rate": 0.25,
+  "assets": {
+    "equity_investments": 500000,
+    "mutual_funds": 300000,
+    "fixed_deposits": 200000,
+    "real_estate": 0
+  },
+  "liabilities": {
+    "home_loan": 1200000,
+    "personal_loan": 0,
+    "credit_card_dues": 50000
+  },
+  "financial_goals": [
+    {
+      "goal": "retirement",
+      "target_amount": 30000000,
+      "time_horizon_years": 25
+    },
+    {
+      "goal": "emergency_fund",
+      "target_amount": 600000,
+      "time_horizon_years": 1
+    }
+  ],
+  "risk_preference": "medium"
+}

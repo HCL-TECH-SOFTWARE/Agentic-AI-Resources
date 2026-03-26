@@ -1,0 +1,77 @@
+{
+  "rfpAnalysisResult": {
+    "analysisId": "RFP-SCORE-20250701-001",
+    "rfpId": "RFP-PROD-AUTOMATION-2025-001",
+    "generatedAt": "2025-07-01T10:30:00Z",
+    "scoredResponses": [
+      {
+        "supplierId": "SUP-001",
+        "supplierName": "Automation Solutions Inc.",
+        "overallScore": 8.5,
+        "ranking": 1,
+        "criterionScores": [
+          {
+            "criterionId": "CRIT-TECH-001",
+            "name": "Technical Capability",
+            "score": 9.0,
+            "justification": "Strong proposal for robotics efficiency (9/10) and seamless system integration (9/10). Quality control accuracy (9/10) appears robust, detailed explanation of sensor tech and AI integration."
+          },
+          {
+            "criterionId": "CRIT-FIN-002",
+            "name": "Pricing Structure",
+            "score": 8.0,
+            "justification": "Competitive hardware cost (8/10) and reasonable software licensing (8/10). Maintenance and support costs (8/10) are slightly higher but offer comprehensive coverage."
+          },
+          {
+            "criterionId": "CRIT-TIM-003",
+            "name": "Delivery & Implementation Timeline",
+            "score": 9.0,
+            "justification": "Proposed timeline of 6 months for delivery (9/10) and 2 months for implementation (9/10) is aggressive but appears feasible given their detailed project plan and resource allocation."
+          },
+          {
+            "criterionId": "CRIT-PERF-004",
+            "name": "Supplier Past Performance",
+            "score": 8.0,
+            "justification": "Provided 3 strong references (8/10) with successful similar projects. Industry experience (8/10) is solid, particularly in automotive automation."
+          }
+        ]
+      },
+      {
+        "supplierId": "SUP-002",
+        "supplierName": "Robotics Innovations Co.",
+        "overallScore": 7.8,
+        "ranking": 2,
+        "criterionScores": [
+          {
+            "criterionId": "CRIT-TECH-001",
+            "name": "Technical Capability",
+            "score": 8.5,
+            "justification": "Good robotics efficiency (8/10), but system integration details (7/10) were less clear compared to SUP-001. Quality control accuracy (9/10) is excellent."
+          },
+          {
+            "criterionId": "CRIT-FIN-002",
+            "name": "Pricing Structure",
+            "score": 9.0,
+            "justification": "Very competitive hardware cost (9/10) and flexible software licensing (9/10). Maintenance and support costs (8/10) are average."
+          },
+          {
+            "criterionId": "CRIT-TIM-003",
+            "name": "Delivery & Implementation Timeline",
+            "score": 7.0,
+            "justification": "Proposed timeline of 8 months for delivery (7/10) and 3 months for implementation (7/10) is longer than desired, raising concerns about project velocity."
+          },
+          {
+            "criterionId": "CRIT-PERF-004",
+            "name": "Supplier Past Performance",
+            "score": 7.5,
+            "justification": "Provided 2 relevant references (7/10) with generally positive feedback. Industry experience (8/10) is strong in smaller scale projects."
+          }
+        ]
+      }
+    ],
+    "overallRanking": [
+      {"supplierId": "SUP-001", "overallScore": 8.5, "rank": 1},
+      {"supplierId": "SUP-002", "overallScore": 7.8, "rank": 2}
+    ]
+  }
+}

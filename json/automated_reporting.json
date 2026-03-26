@@ -1,0 +1,82 @@
+[
+  {
+    "Date": "2025-10-01",
+    "Region": "North America",
+    "Product": "Smartphone X",
+    "UnitsSold": 1200,
+    "Revenue": 960000,
+    "Expenses": 700000
+  },
+  {
+    "Date": "2025-10-01",
+    "Region": "Europe",
+    "Product": "Smartphone X",
+    "UnitsSold": 950,
+    "Revenue": 780000,
+    "Expenses": 590000
+  },
+  {
+    "Date": "2025-10-01",
+    "Region": "Asia-Pacific",
+    "Product": "Tablet Pro",
+    "UnitsSold": 2000,
+    "Revenue": 1000000,
+    "Expenses": 750000
+  },
+  {
+    "Date": "2025-10-02",
+    "Region": "North America",
+    "Product": "Smartwatch Z",
+    "UnitsSold": 600,
+    "Revenue": 300000,
+    "Expenses": 180000
+  },
+  {
+    "Date": "2025-10-02",
+    "Region": "Europe",
+    "Product": "Tablet Pro",
+    "UnitsSold": 850,
+    "Revenue": 425000,
+    "Expenses": 310000
+  },
+  {
+    "Date": "2025-10-02",
+    "Region": "Asia-Pacific",
+    "Product": "Smartphone X",
+    "UnitsSold": 1500,
+    "Revenue": 1200000,
+    "Expenses": 880000
+  },
+  {
+    "Date": "2025-10-03",
+    "Region": "North America",
+    "Product": "Tablet Pro",
+    "UnitsSold": 700,
+    "Revenue": 420000,
+    "Expenses": 310000
+  },
+  {
+    "Date": "2025-10-03",
+    "Region": "Europe",
+    "Product": "Smartwatch Z",
+    "UnitsSold": 500,
+    "Revenue": 240000,
+    "Expenses": 150000
+  },
+  {
+    "Date": "2025-10-03",
+    "Region": "Asia-Pacific",
+    "Product": "Smartwatch Z",
+    "UnitsSold": 900,
+    "Revenue": 420000,
+    "Expenses": 280000
+  },
+  {
+    "Date": "2025-10-03",
+    "Region": "North America",
+    "Product": "Smartphone X",
+    "UnitsSold": 1100,
+    "Revenue": 870000,
+    "Expenses": 640000
+  }
+]

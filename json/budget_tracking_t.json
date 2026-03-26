@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "projectID": "PROJ-Q3-Marketing",
+      "transaction_id": "T001",
+      "amount": 50000,
+      "date": "2026-03-01",
+      "category": "Ads"
+    },
+    {
+      "projectID": "PROJ-Q3-Marketing",
+      "transaction_id": "T002",
+      "amount": 75000,
+      "date": "2026-03-05",
+      "category": "Social Media"
+    },
+    {
+      "projectID": "PROJ-Q3-Marketing",
+      "transaction_id": "T003",
+      "amount": 90000,
+      "date": "2026-03-10",
+      "category": "Influencers"
+    },
+    {
+      "projectID": "PROJ-Q3-Marketing",
+      "transaction_id": "T004",
+      "amount": 60000,
+      "date": "2026-03-15",
+      "category": "Content"
+    }
+  ]
+}

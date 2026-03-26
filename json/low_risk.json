@@ -1,0 +1,42 @@
+[
+  {
+    "asset_class": "Fixed Deposits",
+    "allocation_percent": 30,
+    "description": "Bank-backed savings with fixed interest"
+  },
+  {
+    "asset_class": "Government Bonds",
+    "allocation_percent": 25,
+    "description": "Safe, long-term, sovereign-backed returns"
+  },
+  {
+    "asset_class": "Blue-chip Stocks",
+    "allocation_percent": 15,
+    "description": "Stable, low-volatility equity"
+  },
+  {
+    "asset_class": "Liquid Funds",
+    "allocation_percent": 10,
+    "description": "Quick-access short-term funds"
+  },
+  {
+    "asset_class": "Public Provident Fund",
+    "allocation_percent": 10,
+    "description": "Long-term tax-saving government investment"
+  },
+  {
+    "asset_class": "Post Office Schemes",
+    "allocation_percent": 5,
+    "description": "Risk-free rural investment options"
+  },
+  {
+    "asset_class": "Treasury Bills",
+    "allocation_percent": 3,
+    "description": "Short-term government debt instruments"
+  },
+  {
+    "asset_class": "Corporate Bonds (AAA)",
+    "allocation_percent": 2,
+    "description": "High-rated, fixed income from corporations"
+  }
+]

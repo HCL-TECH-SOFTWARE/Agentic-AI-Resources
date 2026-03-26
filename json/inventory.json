@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-23T16:45:00Z",
+  "facility_id": "MFG-CHENNAI-01",
+  "telemetry_data": [
+    {
+      "asset_id": "CNC-022",
+      "current_zone": "Machining_Floor",
+      "operating_hours": 9998.2
+    },
+    {
+      "asset_id": "FLT-064",
+      "current_zone": "Employee_Cafeteria",
+      "operating_hours": 400.0
+    },
+    {
+      "asset_id": "AGV-012",
+      "current_zone": "Loading_Dock",
+      "operating_hours": 234.5
+    },
+    {
+      "asset_id": "WLD-041",
+      "current_zone": "Assembly_Line",
+      "operating_hours": 1500.0
+    },
+    {
+      "asset_id": "DRL-081",
+      "current_zone": "Tool_Crib",
+      "operating_hours": 120.0
+    }
+  ]
+}

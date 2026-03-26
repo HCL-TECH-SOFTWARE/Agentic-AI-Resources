@@ -1,0 +1,59 @@
+{
+  "contracts": [
+    {
+      "contract_id": "CON001",
+      "title": "Software Development Agreement",
+      "client": "ABC Tech Ltd",
+      "vendor": "XYZ Solutions",
+      "effective_date": "2025-01-15",
+      "expiry_date": "2026-01-14",
+      "document_type": "PDF",
+      "content_url": "https://api.company.com/contracts/CON001.pdf",
+      "status": "Active"
+    },
+    {
+      "contract_id": "CON002",
+      "title": "IT Infrastructure Services",
+      "client": "Global Corp",
+      "vendor": "TechServe Pvt Ltd",
+      "effective_date": "2024-06-01",
+      "expiry_date": "2025-05-31",
+      "document_type": "PDF",
+      "content_url": "https://api.company.com/contracts/CON002.pdf",
+      "status": "Active"
+    },
+    {
+      "contract_id": "CON003",
+      "title": "Marketing Services Agreement",
+      "client": "Bright Media",
+      "vendor": "AdWorks Ltd",
+      "effective_date": "2023-09-10",
+      "expiry_date": "2024-09-09",
+      "document_type": "PDF",
+      "content_url": "https://api.company.com/contracts/CON003.pdf",
+      "status": "Expired"
+    },
+    {
+      "contract_id": "CON004",
+      "title": "Cloud Hosting Services",
+      "client": "Innovate Labs",
+      "vendor": "CloudNet Solutions",
+      "effective_date": "2025-03-01",
+      "expiry_date": "2026-02-28",
+      "document_type": "PDF",
+      "content_url": "https://api.company.com/contracts/CON004.pdf",
+      "status": "Active"
+    },
+    {
+      "contract_id": "CON005",
+      "title": "Consulting Services Agreement",
+      "client": "FutureTech Inc",
+      "vendor": "ConsultCorp",
+      "effective_date": "2024-11-01",
+      "expiry_date": "2025-10-31",
+      "document_type": "PDF",
+      "content_url": "https://api.company.com/contracts/CON005.pdf",
+      "status": "Active"
+    }
+  ]
+}

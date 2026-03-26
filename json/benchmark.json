@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "benchmark_year": 2026,
+    "industry_sector": "Global Supply Chain & Logistics",
+    "source": "Standardized Industry KPI Report",
+    "last_updated": "2026-03-01"
+  },
+  "benchmarks": {
+    "on_time_delivery_pct": 92.5,
+    "product_quality_score": 88.0,
+    "cost_efficiency_score": 85.0,
+    "acceptable_escalation_count": 2,
+    "vendor_feedback_rating": 4.2
+  }
+}

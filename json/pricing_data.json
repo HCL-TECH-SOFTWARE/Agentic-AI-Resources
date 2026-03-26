@@ -1,0 +1,22 @@
+{
+  "pricing_data": [
+    {
+      "product_id": "P1001",
+      "product_name": "Wireless Earbuds",
+      "our_price": 2000,
+      "competitor_prices": [2100, 2050, 2200]
+    },
+    {
+      "product_id": "P1002",
+      "product_name": "Smart Watch",
+      "our_price": 3500,
+      "competitor_prices": [3000, 3200, 3100]
+    },
+    {
+      "product_id": "P1003",
+      "product_name": "Gaming Mouse",
+      "our_price": 1000,
+      "competitor_prices": [950, 980, 970]
+    }
+  ]
+}

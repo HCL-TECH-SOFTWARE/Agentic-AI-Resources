@@ -1,0 +1,67 @@
+{
+  "userID": "USR-94301",
+  "profileData": {
+    "personal": {
+      "fullName": "Rohan Mehra",
+      "dateOfBirth": "1990-05-15",
+      "panNumber": "ABCDE1234F",
+      "address": {
+        "street": "123, MG Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001"
+      }
+    },
+    "employment": {
+      "employerName": "Innovatech Solutions Pvt. Ltd.",
+      "jobTitle": "Senior Software Engineer",
+      "monthlyIncomeINR": 150000
+    },
+    "assets": [
+      {
+        "assetType": "Savings Account",
+        "bank": "HDFC Bank",
+        "balance": 850000
+      },
+      {
+        "assetType": "Mutual Fund",
+        "fundName": "Parag Parikh Flexi Cap",
+        "currentValue": 525000
+      }
+    ]
+  },
+  "creditReport": {
+    "reportDate": "2025-07-01",
+    "creditScore": 780,
+    "activeAccounts": 3,
+    "totalCreditLimit": 1000000,
+    "totalOutstandingBalance": 350000,
+    "creditUtilization": "35.0%",
+    "creditHistory": [
+      {
+        "accountType": "Credit Card",
+        "lender": "ICICI Bank",
+        "limit": 500000,
+        "outstanding": 150000,
+        "status": "Active",
+        "openedDate": "2020-01-10"
+      },
+      {
+        "accountType": "Personal Loan",
+        "lender": "Bajaj Finserv",
+        "limit": 500000,
+        "outstanding": 200000,
+        "status": "Active",
+        "openedDate": "2022-08-20"
+      },
+      {
+        "accountType": "Car Loan",
+        "lender": "Axis Bank",
+        "limit": 800000,
+        "outstanding": 0,
+        "status": "Closed",
+        "openedDate": "2019-03-15"
+      }
+    ]
+  }
+}

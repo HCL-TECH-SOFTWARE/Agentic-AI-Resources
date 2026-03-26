@@ -1,0 +1,122 @@
+[
+  {
+    "Product ID": "MCU-101",
+    "Product Name": "ATmega328P",
+    "Category": "Microcontrollers",
+    "Units Sold": 150,
+    "Revenue (INR)": 45000,
+    "Sale Date": "2024-11-10"
+  },
+  {
+    "Product ID": "MCU-112",
+    "Product Name": "STM32F103C8T6",
+    "Category": "Microcontrollers",
+    "Units Sold": 135,
+    "Revenue (INR)": 54000,
+    "Sale Date": "2024-12-22"
+  },
+  {
+    "Product ID": "MCU-125",
+    "Product Name": "ESP32-WROOM-32",
+    "Category": "Microcontrollers",
+    "Units Sold": 210,
+    "Revenue (INR)": 105000,
+    "Sale Date": "2025-03-05"
+  },
+  {
+    "Product ID": "SEN-204",
+    "Product Name": "IR Proximity Sensor",
+    "Category": "Sensors",
+    "Units Sold": 200,
+    "Revenue (INR)": 30000,
+    "Sale Date": "2024-12-05"
+  },
+  {
+    "Product ID": "SEN-218",
+    "Product Name": "Ultrasonic Distance Sensor",
+    "Category": "Sensors",
+    "Units Sold": 175,
+    "Revenue (INR)": 52500,
+    "Sale Date": "2025-01-20"
+  },
+  {
+    "Product ID": "SEN-240",
+    "Product Name": "9-Axis IMU Sensor",
+    "Category": "Sensors",
+    "Units Sold": 95,
+    "Revenue (INR)": 66500,
+    "Sale Date": "2025-04-14"
+  },
+  {
+    "Product ID": "CON-509",
+    "Product Name": "USB-C Connector",
+    "Category": "Connectors",
+    "Units Sold": 120,
+    "Revenue (INR)": 18000,
+    "Sale Date": "2025-01-12"
+  },
+  {
+    "Product ID": "CON-520",
+    "Product Name": "RJ45 Shielded Connector",
+    "Category": "Connectors",
+    "Units Sold": 160,
+    "Revenue (INR)": 24000,
+    "Sale Date": "2025-02-26"
+  },
+  {
+    "Product ID": "CON-544",
+    "Product Name": "Board-to-Board Header Set",
+    "Category": "Connectors",
+    "Units Sold": 220,
+    "Revenue (INR)": 28600,
+    "Sale Date": "2025-06-11"
+  },
+  {
+    "Product ID": "PCB-330",
+    "Product Name": "4-Layer PCB Board",
+    "Category": "PCB Boards",
+    "Units Sold": 80,
+    "Revenue (INR)": 40000,
+    "Sale Date": "2025-02-03"
+  },
+  {
+    "Product ID": "PCB-342",
+    "Product Name": "2-Layer Prototype PCB",
+    "Category": "PCB Boards",
+    "Units Sold": 140,
+    "Revenue (INR)": 35000,
+    "Sale Date": "2025-03-09"
+  },
+  {
+    "Product ID": "PCB-367",
+    "Product Name": "6-Layer High-Speed PCB",
+    "Category": "PCB Boards",
+    "Units Sold": 55,
+    "Revenue (INR)": 55000,
+    "Sale Date": "2025-07-02"
+  },
+  {
+    "Product ID": "AI-400",
+    "Product Name": "AI Edge Module",
+    "Category": "AI Processors",
+    "Units Sold": 50,
+    "Revenue (INR)": 125000,
+    "Sale Date": "2025-03-18"
+  },
+  {
+    "Product ID": "AI-415",
+    "Product Name": "NPU Accelerator Card",
+    "Category": "AI Processors",
+    "Units Sold": 42,
+    "Revenue (INR)": 168000,
+    "Sale Date": "2025-05-21"
+  },
+  {
+    "Product ID": "AI-430",
+    "Product Name": "Vision Inference SoC",
+    "Category": "AI Processors",
+    "Units Sold": 38,
+    "Revenue (INR)": 171000,
+    "Sale Date": "2025-09-13"
+  }
+]

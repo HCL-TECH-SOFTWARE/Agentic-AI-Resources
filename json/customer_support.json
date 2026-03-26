@@ -1,0 +1,164 @@
+{
+  "customer_complaints": [
+    {
+      "Complaint ID": "C001",
+      "Complaint": "My order hasn't arrived",
+      "Category": "Shipping",
+      "Priority": "High",
+      "Resolution": "We apologize for the delay. Your order is expected to arrive within 3-5 business days.",
+      "Note": "Check tracking before contacting customer."
+    },
+    {
+      "Complaint ID": "C002",
+      "Complaint": "I received a damaged product",
+      "Category": "Product",
+      "Priority": "High",
+      "Resolution": "We are sorry for the inconvenience. Please return the item for a replacement or refund.",
+      "Note": "Provide prepaid return label."
+    },
+    {
+      "Complaint ID": "C003",
+      "Complaint": "I was charged incorrectly",
+      "Category": "Billing",
+      "Priority": "High",
+      "Resolution": "Kindly provide your order ID. We will investigate and refund any incorrect charges within 2 business days.",
+      "Note": "Verify payment gateway logs."
+    },
+    {
+      "Complaint ID": "C004",
+      "Complaint": "I want to cancel my subscription",
+      "Category": "Account",
+      "Priority": "Medium",
+      "Resolution": "Your subscription has been canceled. You will receive a confirmation via email shortly.",
+      "Note": "Confirm next billing cycle is stopped."
+    },
+    {
+      "Complaint ID": "C005",
+      "Complaint": "How do I reset my password?",
+      "Category": "Account",
+      "Priority": "Low",
+      "Resolution": "Click on 'Forgot Password' on the login page and follow the instructions to reset your password.",
+      "Note": "Ensure email verification is sent."
+    },
+    {
+      "Complaint ID": "C006",
+      "Complaint": "The product is missing accessories",
+      "Category": "Product",
+      "Priority": "Medium",
+      "Resolution": "Please provide your order ID. We will send the missing items immediately.",
+      "Note": "Track accessory shipment separately."
+    },
+    {
+      "Complaint ID": "C007",
+      "Complaint": "My account is locked",
+      "Category": "Account",
+      "Priority": "High",
+      "Resolution": "Contact our support team with your registered email to unlock your account.",
+      "Note": "Security check may be required."
+    },
+    {
+      "Complaint ID": "C008",
+      "Complaint": "I need to update my shipping address",
+      "Category": "Shipping",
+      "Priority": "Medium",
+      "Resolution": "You can update your shipping address under 'Account Settings' before your order ships.",
+      "Note": "Cannot update after dispatch."
+    },
+    {
+      "Complaint ID": "C009",
+      "Complaint": "I want a refund",
+      "Category": "Billing",
+      "Priority": "High",
+      "Resolution": "Please submit a refund request via your order history. Refunds are processed within 5-7 business days.",
+      "Note": "Escalate if delay > 7 days."
+    },
+    {
+      "Complaint ID": "C010",
+      "Complaint": "I received the wrong item",
+      "Category": "Product",
+      "Priority": "High",
+      "Resolution": "Return the incorrect item. We will ship the correct product immediately.",
+      "Note": "Include prepaid return label."
+    },
+    {
+      "Complaint ID": "C011",
+      "Complaint": "I did not receive my loyalty points",
+      "Category": "Account",
+      "Priority": "Low",
+      "Resolution": "Points will be credited within 48 hours. If not, contact support with your account ID.",
+      "Note": "Check transaction logs."
+    },
+    {
+      "Complaint ID": "C012",
+      "Complaint": "My coupon code is not working",
+      "Category": "Billing",
+      "Priority": "Medium",
+      "Resolution": "Verify the code validity and minimum purchase criteria. If still not working, contact support.",
+      "Note": "Provide alternate code if expired."
+    },
+    {
+      "Complaint ID": "C013",
+      "Complaint": "I was double-charged",
+      "Category": "Billing",
+      "Priority": "High",
+      "Resolution": "We will refund the duplicate charge within 2 business days.",
+      "Note": "Confirm bank processing times."
+    },
+    {
+      "Complaint ID": "C014",
+      "Complaint": "Product arrived late",
+      "Category": "Shipping",
+      "Priority": "Medium",
+      "Resolution": "We apologize for the delay. Estimated delivery is 1-2 business days.",
+      "Note": "Offer discount if late > 3 days."
+    },
+    {
+      "Complaint ID": "C015",
+      "Complaint": "I received a defective product",
+      "Category": "Product",
+      "Priority": "High",
+      "Resolution": "Return the defective item for a replacement or refund.",
+      "Note": "Document defect with photos."
+    },
+    {
+      "Complaint ID": "C016",
+      "Complaint": "Can I change my order after placing it?",
+      "Category": "Shipping",
+      "Priority": "Medium",
+      "Resolution": "Orders can only be modified within 1 hour of placement.",
+      "Note": "Otherwise, cancel & reorder."
+    },
+    {
+      "Complaint ID": "C017",
+      "Complaint": "How do I track my shipment?",
+      "Category": "Shipping",
+      "Priority": "Low",
+      "Resolution": "Use the tracking link sent in your order confirmation email or enter the tracking ID on our site.",
+      "Note": "Include step-by-step instructions."
+    },
+    {
+      "Complaint ID": "C018",
+      "Complaint": "I am unable to login",
+      "Category": "Account",
+      "Priority": "High",
+      "Resolution": "Reset your password via 'Forgot Password'. If problem persists, contact support.",
+      "Note": "Check account suspension logs."
+    },
+    {
+      "Complaint ID": "C019",
+      "Complaint": "My refund hasn't been processed",
+      "Category": "Billing",
+      "Priority": "High",
+      "Resolution": "Refunds usually take 5-7 business days. If overdue, contact support with your order ID.",
+      "Note": "Escalate if >7 days."
+    },
+    {
+      "Complaint ID": "C020",
+      "Complaint": "I need a warranty replacement",
+      "Category": "Product",
+      "Priority": "Medium",
+      "Resolution": "Submit warranty request via your order history. Approval may take 2-3 business days.",
+      "Note": "Include proof of purchase."
+    }
+  ]
+}

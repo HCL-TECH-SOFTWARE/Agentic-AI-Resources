@@ -1,0 +1,42 @@
+[
+  {
+    "asset_class": "Balanced Mutual Funds",
+    "allocation_percent": 30,
+    "description": "Equity-debt mix, professionally managed"
+  },
+  {
+    "asset_class": "Fixed Income Securities",
+    "allocation_percent": 20,
+    "description": "Regular income, medium risk"
+  },
+  {
+    "asset_class": "Large Cap Stocks",
+    "allocation_percent": 15,
+    "description": "Blue-chip, stable stocks"
+  },
+  {
+    "asset_class": "Gold ETFs",
+    "allocation_percent": 10,
+    "description": "Inflation hedge investment"
+  },
+  {
+    "asset_class": "NPS (Tier I + II)",
+    "allocation_percent": 10,
+    "description": "Govt-backed retirement-focused scheme"
+  },
+  {
+    "asset_class": "Arbitrage Funds",
+    "allocation_percent": 5,
+    "description": "Low-risk equity-debt arbitrage opportunities"
+  },
+  {
+    "asset_class": "Index Funds (Nifty/Sensex)",
+    "allocation_percent": 5,
+    "description": "Passive equity investing"
+  },
+  {
+    "asset_class": "Short-term Debt Funds",
+    "allocation_percent": 5,
+    "description": "Low-duration funds, better than FD returns"
+  }
+]

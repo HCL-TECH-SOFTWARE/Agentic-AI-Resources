@@ -1,0 +1,12 @@
+{
+  "name": "Johnathan Doe",
+  "policy_number": "HCL789456",
+  "vehicle_number": "MH12AB1234",
+  "accident_date": "2025-07-10",
+  "location": "Baner Road, Pune",
+  "email": "john.doe@email.com",
+  "contact_number": "+91-9876543210",
+  "vehicle_model": "Hyundai Creta 2021",
+  "claim_type": "Car Accident",
+  "estimated_damage_amount": 3200
+}

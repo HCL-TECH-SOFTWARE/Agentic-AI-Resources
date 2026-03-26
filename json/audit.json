@@ -1,0 +1,114 @@
+{
+  "compliance_records": [
+    {
+      "record_id": "REC001",
+      "department": "Finance",
+      "policy": "Expense Approval",
+      "submitted_by": "Amit Sharma",
+      "amount": 12500.0,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-15T10:30:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    },
+    {
+      "record_id": "REC002",
+      "department": "HR",
+      "policy": "Leave Balance",
+      "submitted_by": "Neha Singh",
+      "amount": null,
+      "approval_status": "Pending",
+      "last_audit_date": "2025-09-18T14:45:00Z",
+      "flagged_issue": true,
+      "notes": "Leave balance exceeded maximum allowed."
+    },
+    {
+      "record_id": "REC003",
+      "department": "IT",
+      "policy": "Software Licensing",
+      "submitted_by": "Rahul Verma",
+      "amount": 54000.0,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-20T09:15:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    },
+    {
+      "record_id": "REC004",
+      "department": "Operations",
+      "policy": "Purchase Order",
+      "submitted_by": "Priya Nair",
+      "amount": 250000.0,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-22T16:00:00Z",
+      "flagged_issue": true,
+      "notes": "Purchase exceeded departmental budget."
+    },
+    {
+      "record_id": "REC005",
+      "department": "Compliance",
+      "policy": "Training Completion",
+      "submitted_by": "Vikram Rao",
+      "amount": null,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-25T11:30:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    },
+    {
+      "record_id": "REC006",
+      "department": "Finance",
+      "policy": "Invoice Approval",
+      "submitted_by": "Sana Patel",
+      "amount": 78000.0,
+      "approval_status": "Pending",
+      "last_audit_date": "2025-09-26T13:00:00Z",
+      "flagged_issue": true,
+      "notes": "Invoice missing manager approval."
+    },
+    {
+      "record_id": "REC007",
+      "department": "Legal",
+      "policy": "Contract Review",
+      "submitted_by": "Rohan Desai",
+      "amount": null,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-28T10:15:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    },
+    {
+      "record_id": "REC008",
+      "department": "Operations",
+      "policy": "Inventory Check",
+      "submitted_by": "Alisha Mehta",
+      "amount": null,
+      "approval_status": "Pending",
+      "last_audit_date": "2025-09-29T12:45:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    },
+    {
+      "record_id": "REC009",
+      "department": "HR",
+      "policy": "Recruitment Approval",
+      "submitted_by": "Karan Kapoor",
+      "amount": 45000.0,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-09-30T09:00:00Z",
+      "flagged_issue": true,
+      "notes": "Budget allocation exceeded for the quarter."
+    },
+    {
+      "record_id": "REC010",
+      "department": "Finance",
+      "policy": "Expense Reimbursement",
+      "submitted_by": "Meera Joshi",
+      "amount": 32000.0,
+      "approval_status": "Approved",
+      "last_audit_date": "2025-10-01T14:20:00Z",
+      "flagged_issue": false,
+      "notes": ""
+    }
+  ]
+}

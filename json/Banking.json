@@ -1,0 +1,86 @@
+{
+  "customer_records": [
+    {
+      "customer_id": "CUST001",
+      "name": "Amit Sharma",
+      "bank_details": {
+        "account_number": "XXXXXXXX1234",
+        "ifsc_code": "HDFC0001234",
+        "bank_name": "HDFC Bank",
+        "branch": "Indiranagar, Bangalore",
+        "account_type": "Savings",
+        "verified_via": "API",
+        "verification_status": "Verified",
+        "last_updated": "2025-10-05T14:30:00Z"
+      }
+    },
+    {
+      "customer_id": "CUST002",
+      "name": "Neha Singh",
+      "bank_details": {
+        "account_number": "XXXXXXXX9876",
+        "ifsc_code": "SBIN0004321",
+        "bank_name": "State Bank of India",
+        "branch": "Connaught Place, New Delhi",
+        "account_type": "Current",
+        "verified_via": "OCR",
+        "ocr_extracted_fields": {
+          "account_number_raw": "987654321234",
+          "ifsc_raw": "SBIN0004321",
+          "bank_name_raw": "State Bank of India",
+          "branch_raw": "Connaught Place"
+        },
+        "verification_status": "Pending Validation",
+        "last_updated": "2025-10-06T10:20:00Z"
+      }
+    },
+    {
+      "customer_id": "CUST003",
+      "name": "Rahul Verma",
+      "bank_details": {
+        "account_number": "XXXXXXXX5566",
+        "ifsc_code": "ICIC0000987",
+        "bank_name": "ICICI Bank",
+        "branch": "Viman Nagar, Pune",
+        "account_type": "Savings",
+        "verified_via": "API",
+        "verification_status": "Verified",
+        "last_updated": "2025-10-04T09:45:00Z"
+      }
+    },
+    {
+      "customer_id": "CUST004",
+      "name": "Priya Nair",
+      "bank_details": {
+        "account_number": "XXXXXXXX6655",
+        "ifsc_code": "AXIS0001212",
+        "bank_name": "Axis Bank",
+        "branch": "MG Road, Kochi",
+        "account_type": "Savings",
+        "verified_via": "OCR",
+        "ocr_extracted_fields": {
+          "account_number_raw": "1234566655",
+          "ifsc_raw": "AXIS0001212",
+          "bank_name_raw": "Axis Bank",
+          "branch_raw": "MG Road Kochi"
+        },
+        "verification_status": "Pending Validation",
+        "last_updated": "2025-10-07T08:15:00Z"
+      }
+    },
+    {
+      "customer_id": "CUST005",
+      "name": "Vikram Rao",
+      "bank_details": {
+        "account_number": "XXXXXXXX7744",
+        "ifsc_code": "PNB0003344",
+        "bank_name": "Punjab National Bank",
+        "branch": "Gachibowli, Hyderabad",
+        "account_type": "Current",
+        "verified_via": "API",
+        "verification_status": "Verified",
+        "last_updated": "2025-10-08T11:00:00Z"
+      }
+    }
+  ]
+}

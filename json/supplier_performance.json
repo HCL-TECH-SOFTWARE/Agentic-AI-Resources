@@ -1,0 +1,44 @@
+{
+  "suppliers": [
+    {
+      "supplierName": "Sigma Corp",
+      "onTimeDelivery": 96,
+      "productQualityScore": 8.7,
+      "costEfficiency": 9.0,
+      "issueEscalations": 1,
+      "feedbackRating": 4.5
+    },
+    {
+      "supplierName": "Delta Electronics",
+      "onTimeDelivery": 81,
+      "productQualityScore": 6.5,
+      "costEfficiency": 7.2,
+      "issueEscalations": 4,
+      "feedbackRating": 3.1
+    },
+    {
+      "supplierName": "PrimeTech Supplies",
+      "onTimeDelivery": 89,
+      "productQualityScore": 9.2,
+      "costEfficiency": 8.0,
+      "issueEscalations": 0,
+      "feedbackRating": 4.8
+    },
+    {
+      "supplierName": "Nova Components",
+      "onTimeDelivery": 75,
+      "productQualityScore": 5.4,
+      "costEfficiency": 6.5,
+      "issueEscalations": 6,
+      "feedbackRating": 2.8
+    },
+    {
+      "supplierName": "Optima Solutions",
+      "onTimeDelivery": 93,
+      "productQualityScore": 8.0,
+      "costEfficiency": 8.5,
+      "issueEscalations": 2,
+      "feedbackRating": 4.0
+    }
+  ]
+}

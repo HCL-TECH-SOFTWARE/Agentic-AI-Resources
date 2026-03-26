@@ -1,0 +1,25 @@
+{
+  "budgets": [
+    {
+      "projectID": "PROJ-Q3-Marketing",
+      "projectName": "Q3 Digital Marketing Campaign",
+      "department": "Marketing",
+      "budget_limit": 350000,
+      "currency": "INR"
+    },
+    {
+      "projectID": "PROJ-Infra-Upgrade",
+      "projectName": "Server Infrastructure Upgrade",
+      "department": "IT",
+      "budget_limit": 1500000,
+      "currency": "INR"
+    },
+    {
+      "projectID": "PROJ-New-Feature",
+      "projectName": "Mobile App Geo-location Feature",
+      "department": "Engineering",
+      "budget_limit": 800000,
+      "currency": "INR"
+    }
+  ]
+}

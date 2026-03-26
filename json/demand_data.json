@@ -1,0 +1,52 @@
+{
+  "sales_data": [
+    {
+      "product_id": "P1001",
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "units_sold": 320,
+      "revenue": 640000,
+      "date": "2026-03-01"
+    },
+    {
+      "product_id": "P1001",
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "units_sold": 410,
+      "revenue": 820000,
+      "date": "2026-03-05"
+    },
+    {
+      "product_id": "P1002",
+      "product_name": "Smart Watch",
+      "category": "Wearables",
+      "units_sold": 150,
+      "revenue": 450000,
+      "date": "2026-03-01"
+    },
+    {
+      "product_id": "P1002",
+      "product_name": "Smart Watch",
+      "category": "Wearables",
+      "units_sold": 120,
+      "revenue": 360000,
+      "date": "2026-03-05"
+    },
+    {
+      "product_id": "P1003",
+      "product_name": "Gaming Mouse",
+      "category": "Accessories",
+      "units_sold": 220,
+      "revenue": 220000,
+      "date": "2026-03-01"
+    },
+    {
+      "product_id": "P1003",
+      "product_name": "Gaming Mouse",
+      "category": "Accessories",
+      "units_sold": 300,
+      "revenue": 300000,
+      "date": "2026-03-05"
+    }
+  ]
+}

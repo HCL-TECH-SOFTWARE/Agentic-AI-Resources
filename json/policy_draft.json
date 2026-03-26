@@ -1,0 +1,112 @@
+[
+  {
+    "PolicyName": "Leave Policy",
+    "Purpose": "To define the rules and guidelines regarding leaves for all full-time employees.",
+    "Eligibility": "All permanent and probationary employees.",
+    "Guidelines": [
+      "Employees are entitled to 24 paid leaves per calendar year.",
+      "Casual leave requests must be made at least 2 days in advance.",
+      "Sick leave requires submission of a medical certificate for absences exceeding 3 days."
+    ],
+    "ApprovalProcess": "Leave requests are approved by the immediate supervisor via the HR portal."
+  },
+  {
+    "PolicyName": "Remote Work Policy",
+    "Purpose": "To enable employees to work from home while ensuring productivity and data security.",
+    "Eligibility": "Employees with minimum 6 months of service and managerial approval.",
+    "Guidelines": [
+      "Eligible employees may work remotely up to 2 days a week.",
+      "Employees must be available online during business hours.",
+      "All company data must be accessed through secure VPN."
+    ],
+    "ApprovalProcess": "Requests to be routed through HR and department heads."
+  },
+  {
+    "PolicyName": "Onboarding Policy",
+    "Purpose": "To provide a structured onboarding experience for all new hires.",
+    "Eligibility": "All newly joined employees.",
+    "Guidelines": [
+      "Each new employee will be assigned a mentor during the first 30 days.",
+      "Completion of onboarding checklist is mandatory within 14 working days.",
+      "Access credentials and workstation setup will be handled by IT on Day 1."
+    ],
+    "ApprovalProcess": "HR team oversees compliance and documentation."
+  },
+  {
+    "PolicyName": "Attendance Policy",
+    "Purpose": "To ensure punctuality and attendance consistency.",
+    "Eligibility": "All regular and contractual employees.",
+    "Guidelines": [
+      "Employees must log in by 9:30 AM IST.",
+      "Late arrivals beyond 15 minutes require manager justification.",
+      "Repeated tardiness may lead to disciplinary action."
+    ],
+    "ApprovalProcess": "Attendance reports are auto-generated and reviewed weekly by HR."
+  },
+  {
+    "PolicyName": "Travel & Expense Policy",
+    "Purpose": "To manage and reimburse travel-related expenses fairly and efficiently.",
+    "Eligibility": "Employees required to travel for business purposes.",
+    "Guidelines": [
+      "All travel must be pre-approved by department head.",
+      "Reimbursements require original bills within 7 working days of return.",
+      "Per diem allowance applies for domestic and international travel."
+    ],
+    "ApprovalProcess": "Finance verifies and processes reimbursements."
+  },
+  {
+    "PolicyName": "Data Protection Policy",
+    "Purpose": "To ensure compliance with data privacy laws and safeguard company information.",
+    "Eligibility": "All employees handling sensitive or personal data.",
+    "Guidelines": [
+      "No external sharing of customer data without authorization.",
+      "All devices must have encryption enabled.",
+      "Passwords should be changed every 60 days."
+    ],
+    "ApprovalProcess": "Security team monitors compliance via periodic audits."
+  },
+  {
+    "PolicyName": "Equal Opportunity Policy",
+    "Purpose": "To promote diversity and prevent discrimination in all employment practices.",
+    "Eligibility": "All employees, interns, and contractors.",
+    "Guidelines": [
+      "All recruitment decisions must be merit-based.",
+      "No discrimination based on gender, race, or religion.",
+      "Inclusive language must be used in all internal communications."
+    ],
+    "ApprovalProcess": "HR ensures compliance through training and monitoring."
+  },
+  {
+    "PolicyName": "Performance Appraisal Policy",
+    "Purpose": "To evaluate employee performance and ensure fair compensation alignment.",
+    "Eligibility": "All full-time employees post 6-month probation period.",
+    "Guidelines": [
+      "Performance reviews are conducted bi-annually.",
+      "KPIs are defined by department heads and reviewed by HR.",
+      "Employees are eligible for bonuses based on overall rating."
+    ],
+    "ApprovalProcess": "Department heads finalize appraisals, approved by HR."
+  },
+  {
+    "PolicyName": "Conflict of Interest Policy",
+    "Purpose": "To prevent employees from engaging in activities that may compromise integrity.",
+    "Eligibility": "All employees.",
+    "Guidelines": [
+      "Employees must disclose any financial interest in competing companies.",
+      "No employee should accept gifts from vendors exceeding ₹2000 in value.",
+      "Violation may result in disciplinary action including termination."
+    ],
+    "ApprovalProcess": "Compliance officer reviews all disclosures annually."
+  },
+  {
+    "PolicyName": "Workplace Safety Policy",
+    "Purpose": "To maintain a safe and healthy work environment for all employees.",
+    "Eligibility": "All employees, contractors, and visitors.",
+    "Guidelines": [
+      "Emergency exits must remain unobstructed at all times.",
+      "Regular fire and evacuation drills must be conducted quarterly.",
+      "All safety incidents must be reported immediately to administration."
+    ],
+    "ApprovalProcess": "Facilities team ensures compliance through regular inspections."
+  }
+]

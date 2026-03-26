@@ -1,0 +1,2031 @@
+[
+  {
+    "id": "186bcde5-4d1c-42c1-9a61-f2df3c0b2395",
+    "name": "Dynamic Pricing Agent",
+    "description": "Adjusts pricing in real-time based on demand, competitor prices,\nand supply chain conditions.",
+    "edges": [
+      {
+        "source": {
+          "id": "c9e60a84-c42a-49f2-b75e-9bfa474ed4f3",
+          "name": "Demand Reader",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "e6dc4d3a-439d-4afd-9cbb-e90b76e4f37d",
+          "name": "Demand Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "fcb42d32-68e8-499e-b014-0492a15ae721",
+          "name": "Pricing Reader",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "b39668fa-1942-40b9-88d9-01c5506614bc",
+          "name": "Pricing Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "98f6559b-5292-4908-8626-5ace154123b4",
+          "name": "Supply Reader",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "5006df45-3a9b-4abb-833e-983111304bc8",
+          "name": "Supply Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "e6dc4d3a-439d-4afd-9cbb-e90b76e4f37d",
+          "name": "Demand Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "525f523c-8c5c-441f-b98d-fc7615322b28",
+          "name": "Pricing Strategy ",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "525f523c-8c5c-441f-b98d-fc7615322b28",
+          "name": "Pricing Strategy ",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "3c54a35b-36d8-47d6-bb6d-19834ebc71f4",
+          "name": "Price Recommendatation",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "b39668fa-1942-40b9-88d9-01c5506614bc",
+          "name": "Pricing Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "525f523c-8c5c-441f-b98d-fc7615322b28",
+          "name": "Pricing Strategy ",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "5006df45-3a9b-4abb-833e-983111304bc8",
+          "name": "Supply Analysis",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "525f523c-8c5c-441f-b98d-fc7615322b28",
+          "name": "Pricing Strategy ",
+          "role": "",
+          "scope": "",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+      "name": "OPENAI",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "c9e60a84-c42a-49f2-b75e-9bfa474ed4f3",
+          "name": "Demand Reader",
+          "role": "",
+          "scope": "",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      },
+      {
+        "target": {
+          "id": "fcb42d32-68e8-499e-b014-0492a15ae721",
+          "name": "Pricing Reader",
+          "role": "",
+          "scope": "",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      },
+      {
+        "target": {
+          "id": "98f6559b-5292-4908-8626-5ace154123b4",
+          "name": "Supply Reader",
+          "role": "",
+          "scope": "",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "3c54a35b-36d8-47d6-bb6d-19834ebc71f4",
+          "name": "Price Recommendatation",
+          "role": "",
+          "scope": "",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "TEMPLATE",
+    "canvas": {},
+    "category": {
+      "id": "1",
+      "name": "Sales",
+      "description": "Sales related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "",
+    "moderator": {}
+  },
+  {
+    "id": "26b2f2c4-29cb-4d68-9ccc-414b18fb9fa3",
+    "name": "Employee Hiring Advisor Agent",
+    "description": "The Employee Hiring Advisor is an intelligent system designed to guide and support hiring managers through the entire recruitment lifecycle.",
+    "edges": [
+      {
+        "source": {
+          "id": "4cbc47d7-776e-447d-a501-9bfc9f7d66c1",
+          "name": "Job Requisition & Sourcing Agent",
+          "role": "To assist in creating an optimized job description and recommend the best places to find candidates.",
+          "scope": "To assist in creating an optimized job description and recommend the best places to find candidates.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "fd96b714-7f53-438e-892e-9063e95de193",
+          "name": " Candidate Screening Agent",
+          "role": "To automatically screen and shortlist the most qualified applicants from the talent pool.",
+          "scope": "This agent focuses on parsing resumes and matching candidate qualifications against the specific requirements of the job description.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "fd96b714-7f53-438e-892e-9063e95de193",
+          "name": " Candidate Screening Agent",
+          "role": "To automatically screen and shortlist the most qualified applicants from the talent pool.",
+          "scope": "This agent focuses on parsing resumes and matching candidate qualifications against the specific requirements of the job description.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "fd3d69cb-a7a2-4003-a6e5-04ffb1046282",
+          "name": " Interview & Evaluation Agent",
+          "role": "To equip the hiring manager with tools for conducting structured interviews and making an objective decision.",
+          "scope": "This agent is responsible for generating interview materials and consolidating feedback to support the final evaluation.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "4cbc47d7-776e-447d-a501-9bfc9f7d66c1",
+          "name": "Job Requisition & Sourcing Agent",
+          "role": "To assist in creating an optimized job description and recommend the best places to find candidates.",
+          "scope": "To assist in creating an optimized job description and recommend the best places to find candidates.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "fd3d69cb-a7a2-4003-a6e5-04ffb1046282",
+          "name": " Interview & Evaluation Agent",
+          "role": "To equip the hiring manager with tools for conducting structured interviews and making an objective decision.",
+          "scope": "This agent is responsible for generating interview materials and consolidating feedback to support the final evaluation.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "14",
+      "name": "Human Resources",
+      "description": "HR related agentic",
+      "tag": null,
+      "library_id": "3"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "7a7c688a-1401-4581-b798-0cf4c3d4c334",
+    "name": "CustomerSupportAgent",
+    "description": "CustomerSupport",
+    "edges": [
+      {
+        "source": {
+          "id": "ca613415-1bc4-44df-9282-243f2d7313b9",
+          "name": "CustomerQueryGenerator",
+          "role": "generate query",
+          "scope": "generate query",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "be1a6ef5-a859-425e-98fb-3565a85b80e2",
+          "name": "QueryResponseGenerator",
+          "role": "Response generator",
+          "scope": "Response generator",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "ca613415-1bc4-44df-9282-243f2d7313b9",
+          "name": "CustomerQueryGenerator",
+          "role": "generate query",
+          "scope": "generate query",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "be1a6ef5-a859-425e-98fb-3565a85b80e2",
+          "name": "QueryResponseGenerator",
+          "role": "Response generator",
+          "scope": "Response generator",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "3",
+      "name": "Customer Support",
+      "description": "Customer support related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "b8ad59b4-4a92-4f6b-ace1-0329d5b307e6",
+    "name": "AI-Powered Code Review Agent",
+    "description": "An automated assistant that helps development teams improve code quality by systematically analyzing source code before it's merged.",
+    "edges": [
+      {
+        "source": {
+          "id": "05d4239c-9bea-45ce-b5ea-e9efabf1c097",
+          "name": "Static Analysis Agent",
+          "role": "To inspect the code for bugs, style errors, and code quality issues without executing it.",
+          "scope": " This agent is limited to analyzing the structure and syntax of the source code against a predefined set of rules.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "b89790ad-de2b-424a-a5e6-0b12ca41a27d",
+          "name": "Vulnerability & Best Practices Agent",
+          "role": " To identify potential security risks and check for adherence to best practices.",
+          "scope": "This agent focuses on scanning the code for known security vulnerabilities and anti-patterns.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "b89790ad-de2b-424a-a5e6-0b12ca41a27d",
+          "name": "Vulnerability & Best Practices Agent",
+          "role": " To identify potential security risks and check for adherence to best practices.",
+          "scope": "This agent focuses on scanning the code for known security vulnerabilities and anti-patterns.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "2ccc8f7b-4175-4e7f-a385-61fa08615b17",
+          "name": "Suggestion & Reporting Agent",
+          "role": "To consolidate all findings and present them as constructive feedback to the developer.",
+          "scope": " This agent is responsible for merging the outputs from the other agents and formatting them into a clear, actionable report.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "05d4239c-9bea-45ce-b5ea-e9efabf1c097",
+          "name": "Static Analysis Agent",
+          "role": "To inspect the code for bugs, style errors, and code quality issues without executing it.",
+          "scope": " This agent is limited to analyzing the structure and syntax of the source code against a predefined set of rules.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "2ccc8f7b-4175-4e7f-a385-61fa08615b17",
+          "name": "Suggestion & Reporting Agent",
+          "role": "To consolidate all findings and present them as constructive feedback to the developer.",
+          "scope": " This agent is responsible for merging the outputs from the other agents and formatting them into a clear, actionable report.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "6",
+      "name": "ITOPS",
+      "description": "IT operations related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "e01e99b4-6e28-4b6b-88ab-b9b38cc735c3",
+    "name": "AI-Powered Search Agent",
+    "description": "an intelligent system designed to understand user queries, scour the internet and internal databases for relevant information",
+    "edges": [
+      {
+        "source": {
+          "id": "88b716c6-1287-4d16-be68-463685f040e0",
+          "name": "Query Processing Agent",
+          "role": "To understand and refine the user's initial search query.",
+          "scope": " This agent is limited to analyzing the user's language, identifying the core intent, and reformulating the query for effective searching.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "2aa15a37-0663-400b-a28d-ac2242601198",
+          "name": "Information Retrieval Agent",
+          "role": "To execute searches and gather raw data from various information sources",
+          "scope": "This agent's function is to query search engines, databases, and other data repositories using the terms provided by the Query Processing Agent.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "2aa15a37-0663-400b-a28d-ac2242601198",
+          "name": "Information Retrieval Agent",
+          "role": "To execute searches and gather raw data from various information sources",
+          "scope": "This agent's function is to query search engines, databases, and other data repositories using the terms provided by the Query Processing Agent.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "9ca4345f-fc94-48ae-8a63-63c3a641954a",
+          "name": "Synthesis & Presentation Agent",
+          "role": "To analyze the collected information and construct a final, human-readable answer.",
+          "scope": "\" This agent is responsible for filtering out irrelevant data, synthesizing facts from multiple sources, and formatting the information into a clear and concise response.  \"",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "88b716c6-1287-4d16-be68-463685f040e0",
+          "name": "Query Processing Agent",
+          "role": "To understand and refine the user's initial search query.",
+          "scope": " This agent is limited to analyzing the user's language, identifying the core intent, and reformulating the query for effective searching.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "9ca4345f-fc94-48ae-8a63-63c3a641954a",
+          "name": "Synthesis & Presentation Agent",
+          "role": "To analyze the collected information and construct a final, human-readable answer.",
+          "scope": "\" This agent is responsible for filtering out irrelevant data, synthesizing facts from multiple sources, and formatting the information into a clear and concise response.  \"",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "6",
+      "name": "ITOPS",
+      "description": "IT operations related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "99e55154-1d4c-4121-9dc0-87ce19d48bbf",
+    "name": "AiPoweredSearch",
+    "description": "AiPoweredSearch",
+    "edges": [
+      {
+        "source": {
+          "id": "78445525-a70b-44c7-b833-086538b95e10",
+          "name": "SearchExecutor",
+          "role": "researcher",
+          "scope": "to search the query",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Use Tavilly Search to find relevant information for the user's query.",
+            "Search the query and retrieve: - Top 5-10 web page titles and snippets - URLs (optional) Return as a structured list with title and short summary per result."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "567e6b95-cf87-436f-a745-cbbcedb592a8",
+              "name": "tavily_search_results_json",
+              "description": "A search engine optimized for comprehensive, accurate, and trusted results. Useful for when you need to answer questions about current events. Input should be a search query.",
+              "data": {
+                "name": "tavily_search_results_json",
+                "description": "A search engine optimized for comprehensive, accurate, and trusted results. Useful for when you need to answer questions about current events. Input should be a search query.",
+                "max_results": 5,
+                "search_depth": "advanced",
+                "include_domains": [],
+                "exclude_domains": [],
+                "include_answer": false,
+                "include_raw_content": false,
+                "include_images": false,
+                "credential": "9716724d-c967-4683-aa9e-d58d1e9c7a8f"
+              },
+              "tool_type": "agentapi.tools.webtools.TavilySearchTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "c48e8ef9-f0c7-4304-8e86-5867213f77ef",
+          "name": "SearchResultSummarizer",
+          "role": "summarizer",
+          "scope": "to summarize the response",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Summarize the extracted search results to answer the user's original query.",
+            "Focus on: - Most recurring points - Key insights from top sources - Present in 3–5 bullet points or a short paragraph"
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "78445525-a70b-44c7-b833-086538b95e10",
+          "name": "SearchExecutor",
+          "role": "researcher",
+          "scope": "to search the query",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "Use Tavilly Search to find relevant information for the user's query.",
+            "Search the query and retrieve: - Top 5-10 web page titles and snippets - URLs (optional) Return as a structured list with title and short summary per result."
+          ],
+          "guardrails": [],
+          "actions": [
+            "567e6b95-cf87-436f-a745-cbbcedb592a8"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "c48e8ef9-f0c7-4304-8e86-5867213f77ef",
+          "name": "SearchResultSummarizer",
+          "role": "summarizer",
+          "scope": "to summarize the response",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "Summarize the extracted search results to answer the user's original query.",
+            "Focus on: - Most recurring points - Key insights from top sources - Present in 3–5 bullet points or a short paragraph"
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "6",
+      "name": "ITOPS",
+      "description": "IT operations related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "7a7c688a-1401-4581-b798-0cf4c3d4c334",
+    "name": "CustomerSupportAgent",
+    "description": "CustomerSupport",
+    "edges": [
+      {
+        "source": {
+          "id": "ca613415-1bc4-44df-9282-243f2d7313b9",
+          "name": "CustomerQueryGenerator",
+          "role": "generate query",
+          "scope": "generate query",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "be1a6ef5-a859-425e-98fb-3565a85b80e2",
+          "name": "QueryResponseGenerator",
+          "role": "Response generator",
+          "scope": "Response generator",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "ca613415-1bc4-44df-9282-243f2d7313b9",
+          "name": "CustomerQueryGenerator",
+          "role": "generate query",
+          "scope": "generate query",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "be1a6ef5-a859-425e-98fb-3565a85b80e2",
+          "name": "QueryResponseGenerator",
+          "role": "Response generator",
+          "scope": "Response generator",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "3",
+      "name": "Customer Support",
+      "description": "Customer support related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "443d8cbc-32e3-407b-8849-24a167eeae09",
+    "name": "CustomerSupportAgentNew",
+    "description": "CustomerSupportAgent",
+    "edges": [
+      {
+        "source": {
+          "id": "e6905184-6501-4ea1-a326-bdf0c1353fea",
+          "name": "TicketDataExtractor",
+          "role": "Extractor",
+          "scope": "extract the data from the pdf",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Extract structured customer support ticket data from the provided PDF.",
+            "Each row in the table includes: (TicketID, Customer, Issue, Status, SupportAgent)",
+            "Ensure the output is a clean, structured table format for further processing."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "ab2953c1-ef45-4e61-814c-7e41896fc91f",
+              "name": "pdf_reader",
+              "description": "Load text from a PDF. Accepts a local path or remote URL (http, https, ftp).",
+              "data": {
+                "name": "pdf_reader",
+                "description": "Load text from a PDF. Accepts a local path or remote URL (http, https, ftp).",
+                "tag": "file loader"
+              },
+              "tool_type": "agentapi.tools.fileloader.PDFReaderTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "78c3156d-af82-4d14-914e-3c4fe9defcc7",
+          "name": "TicketSummaryGenerator",
+          "role": "summarizer",
+          "scope": "to summarize the data",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "You will receive structured customer support ticket data extracted by the previous subagent.",
+            "The input will include rows with: (TicketID, Customer, Issue, Status, SupportAgent)",
+            "Using this data: - Group by Status to count how many tickets fall into each category - Identify the most frequently reported issues - Determine which agent handled the most tickets",
+            "Return the summary in a clear table or bullet-point format."
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "78c3156d-af82-4d14-914e-3c4fe9defcc7",
+          "name": "TicketSummaryGenerator",
+          "role": "summarizer",
+          "scope": "to summarize the data",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "You will receive structured customer support ticket data extracted by the previous subagent.",
+            "The input will include rows with: (TicketID, Customer, Issue, Status, SupportAgent)",
+            "Using this data: - Group by Status to count how many tickets fall into each category - Identify the most frequently reported issues - Determine which agent handled the most tickets",
+            "Return the summary in a clear table or bullet-point format."
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "eb7d2a6e-2bec-4153-8067-359b7c5924da",
+          "name": "SupportInsightsGenerator",
+          "role": "generator",
+          "scope": "insight generator",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Based on the summarized ticket data, generate actionable insights.",
+            "Provide: - Performance observations (e.g., ticket resolution distribution) - Patterns in customer complaints - Recommendations to improve support operations (e.g., workload balancing, training needs)",
+            "Summarize in 3–5 bullet points."
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "e6905184-6501-4ea1-a326-bdf0c1353fea",
+          "name": "TicketDataExtractor",
+          "role": "Extractor",
+          "scope": "extract the data from the pdf",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "Extract structured customer support ticket data from the provided PDF.",
+            "Each row in the table includes: (TicketID, Customer, Issue, Status, SupportAgent)",
+            "Ensure the output is a clean, structured table format for further processing."
+          ],
+          "guardrails": [],
+          "actions": [
+            "ab2953c1-ef45-4e61-814c-7e41896fc91f"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "eb7d2a6e-2bec-4153-8067-359b7c5924da",
+          "name": "SupportInsightsGenerator",
+          "role": "generator",
+          "scope": "insight generator",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "Based on the summarized ticket data, generate actionable insights.",
+            "Provide: - Performance observations (e.g., ticket resolution distribution) - Patterns in customer complaints - Recommendations to improve support operations (e.g., workload balancing, training needs)",
+            "Summarize in 3–5 bullet points."
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "READY",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "6",
+      "name": "ITOPS",
+      "description": "IT operations related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  },
+  {
+    "id": "0cfc4201-9de2-43ef-87d1-e332cbff0181",
+    "name": "Demand Forecasting AI Agent",
+    "description": "Predicts future demand based on historical sales,\nseasonality, and industry trends",
+    "edges": [
+      {
+        "source": {
+          "id": "4a9d1903-be8d-4e8c-9ec9-c6c665e16334",
+          "name": "Sales Reader ",
+          "role": "Extracts and interprets product sales transactions for demand forecasting.",
+          "scope": "Extract realistic sales transaction data as would be logged in systems used by electronics distributors like Avnet or Digi-Key.",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Load and read data only from the `transactions` table in the SQLite file.",
+            " Extract relevant details such as product_id, sale_date, quantity_sold, and revenue.",
+            "- Clean and structure the data into a readable format.",
+            "- Return the processed transaction data in tabular or JSON format for downstream forecasting tasks."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "a08156bb-f833-4633-b67f-907f7d8dcc3a",
+              "name": "sql_db_query",
+              "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+              "data": {
+                "name": "sql_db_query",
+                "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.QuerySQLTool"
+            },
+            {
+              "id": "35eea39e-616b-4106-aaf4-e7e0d566b5d9",
+              "name": "sql_db_list_tables",
+              "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+              "data": {
+                "name": "sql_db_list_tables",
+                "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.ListSQLTool"
+            },
+            {
+              "id": "92370bc9-8d93-4b9f-8746-b7aa9c11446c",
+              "name": "sql_db_schema",
+              "description": "Get the schema and sample rows for the specified SQL tables.",
+              "data": {
+                "name": "sql_db_schema",
+                "description": "Get the schema and sample rows for the specified SQL tables.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.InfoSQLTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "548e0457-13d2-4727-b570-3f5c1be282cb",
+          "name": "Demand Forecasting",
+          "role": "Demand Forecasting Agent analyses the data coming from database.",
+          "scope": "Take the tables from the three reader agents and: Standardize date and numeric formats Combine relevant insights Output a compact, readable, and precise dataset or summary",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Parse the incoming data from all three sources. Ensure standardization:  Dates: Convert all to YYYY-MM-DD, Currency: Ensure consistent symbol and precision (e.g., $123.45), Numerical values: Round to two decimal places if applicable",
+            "Remove redundant or irrelevant data. Merge by aligning similar categories if needed (e.g., Microcontrollers across all three sources)",
+            "Output should be:  Structured bullet points  Focused on key findings or patterns, e.g., \"Category X shows 25% increased sales during Black Friday and has a growth forecast of 1.20 due to AI Integration.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "82230c13-0c96-4c1f-8ebc-dba646612487",
+          "name": "Industry Reader",
+          "role": "Analyzes industry-level events and their impact on market conditions.",
+          "scope": "Analyze internal demand planning data based on major seasonal or promotional events and their impact on different categories from the EventImpact table in the database..",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Load and read data only from the `EventImpact` table in the SQLite file.",
+            "- Extract fields like event_name, event_date, and impact_score.",
+            "- Summarize major industry events and assess how they may influence market behavior.",
+            "- Output the structured data for further analysis."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "d1f17e5a-b4a2-4a69-a3ee-248a4a66757f",
+              "name": "sql_db_list_tables",
+              "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+              "data": {
+                "name": "sql_db_list_tables",
+                "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.ListSQLTool"
+            },
+            {
+              "id": "5b300d37-b6de-4de2-b5af-4860c73ef65b",
+              "name": "sql_db_query",
+              "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+              "data": {
+                "name": "sql_db_query",
+                "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.QuerySQLTool"
+            },
+            {
+              "id": "284ca187-e4a6-4f4e-9230-02ef5ec65459",
+              "name": "sql_db_schema",
+              "description": "Get the schema and sample rows for the specified SQL tables.",
+              "data": {
+                "name": "sql_db_schema",
+                "description": "Get the schema and sample rows for the specified SQL tables.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.InfoSQLTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "548e0457-13d2-4727-b570-3f5c1be282cb",
+          "name": "Demand Forecasting",
+          "role": "Demand Forecasting Agent analyses the data coming from database.",
+          "scope": "Take the tables from the three reader agents and: Standardize date and numeric formats Combine relevant insights Output a compact, readable, and precise dataset or summary",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Parse the incoming data from all three sources. Ensure standardization:  Dates: Convert all to YYYY-MM-DD, Currency: Ensure consistent symbol and precision (e.g., $123.45), Numerical values: Round to two decimal places if applicable",
+            "Remove redundant or irrelevant data. Merge by aligning similar categories if needed (e.g., Microcontrollers across all three sources)",
+            "Output should be:  Structured bullet points  Focused on key findings or patterns, e.g., \"Category X shows 25% increased sales during Black Friday and has a growth forecast of 1.20 due to AI Integration.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "f285b3b7-037e-42ec-b3c5-4e38ecdf90df",
+          "name": "Seasonality Reader",
+          "role": "Reads seasonal trends affecting product demand patterns.",
+          "scope": "Analyze trend-driven investment data that reflects how emerging technologies impact various product categories from the MarketTrends table in the db.",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "- Load and read data only from the `markettrends` table in the SQLite file.",
+            "- Extract fields such as Category, Trend, end_date, and GrowthFactor.",
+            "- Return the cleaned, structured seasonal data for use in demand forecasting."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "4920be88-c729-42ab-a1df-9255aa4d3a6d",
+              "name": "sql_db_query",
+              "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+              "data": {
+                "name": "sql_db_query",
+                "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.QuerySQLTool"
+            },
+            {
+              "id": "bfc34cf0-6d11-4b0e-929f-715db0b156a8",
+              "name": "sql_db_list_tables",
+              "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+              "data": {
+                "name": "sql_db_list_tables",
+                "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.ListSQLTool"
+            },
+            {
+              "id": "20783ced-eb1e-4d18-a1fd-c331ae5b050c",
+              "name": "sql_db_schema",
+              "description": "Get the schema and sample rows for the specified SQL tables.",
+              "data": {
+                "name": "sql_db_schema",
+                "description": "Get the schema and sample rows for the specified SQL tables.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/demandforecasting.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.InfoSQLTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "548e0457-13d2-4727-b570-3f5c1be282cb",
+          "name": "Demand Forecasting",
+          "role": "Demand Forecasting Agent analyses the data coming from database.",
+          "scope": "Take the tables from the three reader agents and: Standardize date and numeric formats Combine relevant insights Output a compact, readable, and precise dataset or summary",
+          "llm": {
+            "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+            "name": "OPENAI",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "Parse the incoming data from all three sources. Ensure standardization:  Dates: Convert all to YYYY-MM-DD, Currency: Ensure consistent symbol and precision (e.g., $123.45), Numerical values: Round to two decimal places if applicable",
+            "Remove redundant or irrelevant data. Merge by aligning similar categories if needed (e.g., Microcontrollers across all three sources)",
+            "Output should be:  Structured bullet points  Focused on key findings or patterns, e.g., \"Category X shows 25% increased sales during Black Friday and has a growth forecast of 1.20 due to AI Integration.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+      "name": "OPENAI",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "4a9d1903-be8d-4e8c-9ec9-c6c665e16334",
+          "name": "Sales Reader ",
+          "role": "Extracts and interprets product sales transactions for demand forecasting.",
+          "scope": "Extract realistic sales transaction data as would be logged in systems used by electronics distributors like Avnet or Digi-Key.",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [
+            "Load and read data only from the `transactions` table in the SQLite file.",
+            " Extract relevant details such as product_id, sale_date, quantity_sold, and revenue.",
+            "- Clean and structure the data into a readable format.",
+            "- Return the processed transaction data in tabular or JSON format for downstream forecasting tasks."
+          ],
+          "guardrails": [],
+          "actions": [
+            "a08156bb-f833-4633-b67f-907f7d8dcc3a",
+            "35eea39e-616b-4106-aaf4-e7e0d566b5d9",
+            "92370bc9-8d93-4b9f-8746-b7aa9c11446c"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      },
+      {
+        "target": {
+          "id": "82230c13-0c96-4c1f-8ebc-dba646612487",
+          "name": "Industry Reader",
+          "role": "Analyzes industry-level events and their impact on market conditions.",
+          "scope": "Analyze internal demand planning data based on major seasonal or promotional events and their impact on different categories from the EventImpact table in the database..",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [
+            "Load and read data only from the `EventImpact` table in the SQLite file.",
+            "- Extract fields like event_name, event_date, and impact_score.",
+            "- Summarize major industry events and assess how they may influence market behavior.",
+            "- Output the structured data for further analysis."
+          ],
+          "guardrails": [],
+          "actions": [
+            "d1f17e5a-b4a2-4a69-a3ee-248a4a66757f",
+            "5b300d37-b6de-4de2-b5af-4860c73ef65b",
+            "284ca187-e4a6-4f4e-9230-02ef5ec65459"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      },
+      {
+        "target": {
+          "id": "f285b3b7-037e-42ec-b3c5-4e38ecdf90df",
+          "name": "Seasonality Reader",
+          "role": "Reads seasonal trends affecting product demand patterns.",
+          "scope": "Analyze trend-driven investment data that reflects how emerging technologies impact various product categories from the MarketTrends table in the db.",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [
+            "- Load and read data only from the `markettrends` table in the SQLite file.",
+            "- Extract fields such as Category, Trend, end_date, and GrowthFactor.",
+            "- Return the cleaned, structured seasonal data for use in demand forecasting."
+          ],
+          "guardrails": [],
+          "actions": [
+            "4920be88-c729-42ab-a1df-9255aa4d3a6d",
+            "bfc34cf0-6d11-4b0e-929f-715db0b156a8",
+            "20783ced-eb1e-4d18-a1fd-c331ae5b050c"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "548e0457-13d2-4727-b570-3f5c1be282cb",
+          "name": "Demand Forecasting",
+          "role": "Demand Forecasting Agent analyses the data coming from database.",
+          "scope": "Take the tables from the three reader agents and: Standardize date and numeric formats Combine relevant insights Output a compact, readable, and precise dataset or summary",
+          "llm": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+          "description": "",
+          "instructions": [
+            "Parse the incoming data from all three sources. Ensure standardization:  Dates: Convert all to YYYY-MM-DD, Currency: Ensure consistent symbol and precision (e.g., $123.45), Numerical values: Round to two decimal places if applicable",
+            "Remove redundant or irrelevant data. Merge by aligning similar categories if needed (e.g., Microcontrollers across all three sources)",
+            "Output should be:  Structured bullet points  Focused on key findings or patterns, e.g., \"Category X shows 25% increased sales during Black Friday and has a growth forecast of 1.20 due to AI Integration.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "READY",
+    "type": "TEMPLATE",
+    "canvas": {},
+    "category": {
+      "id": "1",
+      "name": "Sales",
+      "description": "Sales related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "",
+    "moderator": {}
+  },
+  {
+    "id": "c443dbe2-87d8-408d-b9a3-38183dc9795b",
+    "name": "Expense Management Agent",
+    "description": "Manages, categorizes, and summarizes expenses with intelligent insights.",
+    "edges": [
+      {
+        "source": {
+          "id": "a2bce8f2-9cab-41be-9476-92adee60448b",
+          "name": "Expense Data Extractor",
+          "role": "Extracts and structures all expense management data for clean financial tracking, reporting, and downstream analysis.",
+          "scope": "To connect to the expense management database and organize all data tables into clean, labeled formats without performing any calculations or analytics.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "1. Connect to the SQLite database built using the `expensemanagement.sql` schema.",
+            "2. Extract all data from the defined tables, such as:    - Users    - Expenses    - Categories    - PaymentMethods    - Reimbursements    - Budgets    - Approvals (if present)",
+            "3. For each table:    - Load the complete dataset.    - Structure the output in clean, labeled JSON or tabular format.    - Retain all field names, data types, IDs, and relationships (e.g., UserID, CategoryID).    - Ensure date fields, monetary values, and category mappings are preserved accurately.",
+            "4. Do not perform any analysis, classification, or summarization.",
+            "5. Ensure the data is formatted cleanly for easy review, audit, or use by financial automation agents."
+          ],
+          "guardrails": [],
+          "actions": [
+            {
+              "id": "490465d5-adac-4b54-853f-b4dd69dce71d",
+              "name": "sql_db_query",
+              "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+              "data": {
+                "name": "sql_db_query",
+                "description": "\n    Execute a SQL query against the database and get back the result..\n    If the query is not correct, an error message will be returned.\n    If an error is returned, rewrite the query, check the query, and try again.\n    ",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/expensemanagement.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.QuerySQLTool"
+            },
+            {
+              "id": "2c3b0f6f-a053-4b81-b873-c86f3106127c",
+              "name": "sql_db_list_tables",
+              "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+              "data": {
+                "name": "sql_db_list_tables",
+                "description": "Input is an empty string, output is a comma-separated list of tables in the database.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/expensemanagement.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.ListSQLTool"
+            },
+            {
+              "id": "29a71c55-4719-43ad-ba82-abd1d1a576ff",
+              "name": "sql_db_schema",
+              "description": "Get the schema and sample rows for the specified SQL tables.",
+              "data": {
+                "name": "sql_db_schema",
+                "description": "Get the schema and sample rows for the specified SQL tables.",
+                "db_type": "sqlite",
+                "sqlite_script_url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/refs/heads/main/sql/expensemanagement.sql"
+              },
+              "tool_type": "agentapi.tools.sqldatabase.InfoSQLTool"
+            }
+          ],
+          "agentic_type": "REACT"
+        },
+        "target": {
+          "id": "766597f9-0333-41d6-9e58-0bbb8d293319",
+          "name": "Expense Classifier",
+          "role": "Classifies expenses for trend and behavior analysis.",
+          "scope": "Tags and clusters expenses by type, frequency, and payment method.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "\"Input: JSON from Expense Data Extractor.  Group and label:  High-frequency expenses (3+ times a week)  High-value transactions (> ₹2000)  Frequent merchants (e.g., more than 5 transactions)  Tag each record with tags: e.g., [\"\"frequent\"\", \"\"high-value\"\", \"\"recurring\"\"]  Output annotated JSON.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "766597f9-0333-41d6-9e58-0bbb8d293319",
+          "name": "Expense Classifier",
+          "role": "Classifies expenses for trend and behavior analysis.",
+          "scope": "Tags and clusters expenses by type, frequency, and payment method.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "\"Input: JSON from Expense Data Extractor.  Group and label:  High-frequency expenses (3+ times a week)  High-value transactions (> ₹2000)  Frequent merchants (e.g., more than 5 transactions)  Tag each record with tags: e.g., [\"\"frequent\"\", \"\"high-value\"\", \"\"recurring\"\"]  Output annotated JSON.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "5ecedd3a-fc01-4229-b5d3-3290b3d382e4",
+          "name": " Expense Insight Generator and Reporter",
+          "role": "Derives insights from expense patterns and converts expense data and insights into a structured report.",
+          "scope": " Identifies spending habits and suggests behavioral changes.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [
+            "\"Input: JSON from ExpenseClassifier.  Generate insights such as:  \"\"You dine out 4 times/week\"\"  \"\"40% of your monthly spending is on subscriptions\"\"  \"\"Cash payments are used only for transportation\"\"  Suggest habits to monitor:  Cut frequent low-value app payments. Table summarizing total spend per category  Pie chart-style data structure (category: % of total)  Highlight top 3 merchants by spend  Bullet list of actionable insights  Consolidate recurring merchant subscriptions  Output insights as a markdown bullet list and a breakdown per category.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "2fa635c8-42db-47d2-b5f5-1eb0957ad61a",
+      "name": "OPENAI",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "339841ed-e972-4730-a7e9-ec87fddb4186",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "a2bce8f2-9cab-41be-9476-92adee60448b",
+          "name": "Expense Data Extractor",
+          "role": "Extracts and structures all expense management data for clean financial tracking, reporting, and downstream analysis.",
+          "scope": "To connect to the expense management database and organize all data tables into clean, labeled formats without performing any calculations or analytics.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "1. Connect to the SQLite database built using the `expensemanagement.sql` schema.",
+            "2. Extract all data from the defined tables, such as:    - Users    - Expenses    - Categories    - PaymentMethods    - Reimbursements    - Budgets    - Approvals (if present)",
+            "3. For each table:    - Load the complete dataset.    - Structure the output in clean, labeled JSON or tabular format.    - Retain all field names, data types, IDs, and relationships (e.g., UserID, CategoryID).    - Ensure date fields, monetary values, and category mappings are preserved accurately.",
+            "4. Do not perform any analysis, classification, or summarization.",
+            "5. Ensure the data is formatted cleanly for easy review, audit, or use by financial automation agents."
+          ],
+          "guardrails": [],
+          "actions": [
+            "490465d5-adac-4b54-853f-b4dd69dce71d",
+            "2c3b0f6f-a053-4b81-b873-c86f3106127c",
+            "29a71c55-4719-43ad-ba82-abd1d1a576ff"
+          ],
+          "agentic_type": "REACT"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "5ecedd3a-fc01-4229-b5d3-3290b3d382e4",
+          "name": " Expense Insight Generator and Reporter",
+          "role": "Derives insights from expense patterns and converts expense data and insights into a structured report.",
+          "scope": " Identifies spending habits and suggests behavioral changes.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [
+            "\"Input: JSON from ExpenseClassifier.  Generate insights such as:  \"\"You dine out 4 times/week\"\"  \"\"40% of your monthly spending is on subscriptions\"\"  \"\"Cash payments are used only for transportation\"\"  Suggest habits to monitor:  Cut frequent low-value app payments. Table summarizing total spend per category  Pie chart-style data structure (category: % of total)  Highlight top 3 merchants by spend  Bullet list of actionable insights  Consolidate recurring merchant subscriptions  Output insights as a markdown bullet list and a breakdown per category.\""
+          ],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "READY",
+    "type": "TEMPLATE",
+    "canvas": {},
+    "category": {
+      "id": "4",
+      "name": "Finance",
+      "description": "Finance related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "",
+    "moderator": {}
+  },
+  {
+    "id": "309424d0-1b03-4cf6-948d-e25608d1a38a",
+    "name": "Financial FAQ and Knowledge Assistant",
+    "description": "A specialized AI-powered tool that serves as a central, on-demand resource for employees' financial queries.",
+    "edges": [
+      {
+        "source": {
+          "id": "bc46ebd7-76a9-46b4-bde0-9068541f7f92",
+          "name": "Query Interpretation Agent",
+          "role": "To accurately understand and categorize an employee's financial question.",
+          "scope": "This agent is limited to using natural language processing (NLP) to identify the specific topic and intent behind a user's free-text query.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "d110ea15-2d6d-41dc-b620-f01ceed66d06",
+          "name": "Knowledge Retrieval Agent",
+          "role": " To search the company's internal financial documentation and find the relevant information.",
+          "scope": " This agent's function is strictly to query a secure and curated knowledge base of financial policies, process guides, and standard operating procedures.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      },
+      {
+        "source": {
+          "id": "d110ea15-2d6d-41dc-b620-f01ceed66d06",
+          "name": "Knowledge Retrieval Agent",
+          "role": " To search the company's internal financial documentation and find the relevant information.",
+          "scope": " This agent's function is strictly to query a secure and curated knowledge base of financial policies, process guides, and standard operating procedures.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "target": {
+          "id": "ad7a0a4f-a305-4828-abeb-2e9c28e47a80",
+          "name": "Response Generation and Presentation Agent",
+          "role": " To formulate the retrieved information into a clear, concise, and helpful answer for the employee.",
+          "scope": "This agent is responsible for synthesizing the raw data into human-readable text, formatting it for clarity, and delivering the final response.",
+          "llm": {
+            "id": "openai_e",
+            "name": "openai_e",
+            "llm_name": "GPT_4O_MINI",
+            "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+            "llm_configuration": {}
+          },
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT_TO_SUBAGENT"
+      }
+    ],
+    "llm": {
+      "id": "openai_e",
+      "name": "openai_e",
+      "llm_name": "GPT_4O_MINI",
+      "credential": "974cfee8-2e52-4627-974d-8600ad435fac",
+      "llm_configuration": {}
+    },
+    "start_nodes": [
+      {
+        "target": {
+          "id": "bc46ebd7-76a9-46b4-bde0-9068541f7f92",
+          "name": "Query Interpretation Agent",
+          "role": "To accurately understand and categorize an employee's financial question.",
+          "scope": "This agent is limited to using natural language processing (NLP) to identify the specific topic and intent behind a user's free-text query.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "end_nodes": [
+      {
+        "source": {
+          "id": "ad7a0a4f-a305-4828-abeb-2e9c28e47a80",
+          "name": "Response Generation and Presentation Agent",
+          "role": " To formulate the retrieved information into a clear, concise, and helpful answer for the employee.",
+          "scope": "This agent is responsible for synthesizing the raw data into human-readable text, formatting it for clarity, and delivering the final response.",
+          "llm": "openai_e",
+          "description": "",
+          "instructions": [],
+          "guardrails": [],
+          "actions": [],
+          "agentic_type": "LLM"
+        },
+        "edge_type": "SUBAGENT"
+      }
+    ],
+    "status": "IN_PROGRESS",
+    "type": "CUSTOM",
+    "canvas": {},
+    "category": {
+      "id": "4",
+      "name": "Finance",
+      "description": "Finance related agentic",
+      "tag": null,
+      "library_id": "1"
+    },
+    "guard_pii": false,
+    "guard_jailbreak": false,
+    "enable_longtermmemory": false,
+    "guard": "Write generic guardrails",
+    "moderator": {}
+  }
+]

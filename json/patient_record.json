@@ -1,0 +1,32 @@
+[
+  {
+    "patient_name": "Ananya Mehra",
+    "age": 29,
+    "symptoms": "frequent headaches and blurred vision",
+    "appointment_date": "2025-08-14"
+  },
+  {
+    "patient_name": "Vikram Joshi",
+    "age": 48,
+    "symptoms": "joint stiffness and knee pain",
+    "appointment_date": "2025-08-15"
+  },
+  {
+    "patient_name": "Fatima Khan",
+    "age": 37,
+    "symptoms": "itchy rash on arms and redness",
+    "appointment_date": "2025-08-16"
+  },
+  {
+    "patient_name": "Amit Deshmukh",
+    "age": 60,
+    "symptoms": "dizziness and irregular heartbeat",
+    "appointment_date": "2025-08-17"
+  },
+  {
+    "patient_name": "Sneha Patil",
+    "age": 42,
+    "symptoms": "persistent cough and wheezing",
+    "appointment_date": "2025-08-18"
+  }
+]

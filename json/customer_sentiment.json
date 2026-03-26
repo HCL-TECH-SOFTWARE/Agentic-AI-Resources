@@ -1,0 +1,102 @@
+{
+  "products_context": [
+    {
+      "product_id": "P101",
+      "product_name": "CloudDrive Storage",
+      "category": "Cloud Services",
+      "features": ["File Sync", "File Sharing", "Cloud Upload", "Version History", "Team Folders"],
+      "known_issues": [
+        "Sync failure for large files",
+        "Slow upload speeds during peak hours",
+        "Free tier quota not resetting after plan downgrade",
+        "Confusing UI for locating sharing options"
+      ],
+      "recent_updates": [
+        "Performance patch released Feb 10",
+        "Sync engine retry logic improved Feb 19",
+        "UI sharing panel reorganized Feb 22"
+      ]
+    },
+    {
+      "product_id": "P102",
+      "product_name": "SecureMail Pro",
+      "category": "Communication",
+      "features": ["Email Encryption", "Spam Filter", "Search", "Mobile Push Notifications", "Email Threading"],
+      "known_issues": [
+        "Spam filter accuracy issues",
+        "Delayed mobile push notifications on iOS 17",
+        "Email threading display glitches on Android",
+        "Search latency on large mailboxes"
+      ],
+      "recent_updates": [
+        "Spam filter improvement deployed Feb 9",
+        "Mobile notification rework released Feb 21",
+        "Search indexing performance improved Feb 23"
+      ]
+    },
+    {
+      "product_id": "P103",
+      "product_name": "DataAnalytics Hub",
+      "category": "Analytics",
+      "features": ["Dashboards", "Reports", "Data Processing", "Scheduled Reports", "CSV Export"],
+      "known_issues": [
+        "Slow performance for large datasets",
+        "CSV export hanging on filtered views over 50k rows",
+        "Inconsistent results after applying multiple filters"
+      ],
+      "recent_updates": [
+        "Dashboard optimization update Feb 10",
+        "Scheduled report delivery reliability fixed Feb 23",
+        "Large dataset query planner patch in progress"
+      ]
+    },
+    {
+      "product_id": "P104",
+      "product_name": "TaskFlow Pro",
+      "category": "Productivity",
+      "features": ["Kanban Board", "Timeline View", "Task Assignments", "Deadline Reminders", "CSV Import", "Calendar Sync"],
+      "known_issues": [
+        "Calendar sync breaks after Google Workspace OAuth token refresh",
+        "Bulk CSV task import fails with parsing error on all file sizes",
+        "Timeline view rendering lags on projects with over 200 tasks"
+      ],
+      "recent_updates": [
+        "Kanban performance improvements released Feb 13",
+        "Deadline reminder reliability improved Feb 16",
+        "OAuth token refresh fix in review as of Feb 20"
+      ]
+    },
+    {
+      "product_id": "P105",
+      "product_name": "NetworkShield",
+      "category": "Security",
+      "features": ["Intrusion Detection", "Threat Dashboard", "Vulnerability Scanner", "Alert Management", "Traffic Analysis"],
+      "known_issues": [
+        "False positive alerts blocking legitimate internal API traffic",
+        "Default alert configuration produces excessive noise",
+        "No severity grouping in out-of-box alert ruleset"
+      ],
+      "recent_updates": [
+        "Intrusion detection rules updated Feb 15",
+        "Vulnerability scanner report formatting improved Feb 18",
+        "Alert tuning documentation published Feb 22"
+      ]
+    },
+    {
+      "product_id": "P106",
+      "product_name": "InsightAI",
+      "category": "AI & Machine Learning",
+      "features": ["Predictive Modelling", "Batch Inference", "Model Retraining Pipeline", "Feature Importance", "REST API"],
+      "known_issues": [
+        "Retraining pipeline fails silently with no error output to logs",
+        "Feature importance scores inconsistent across identical inference runs",
+        "Pipeline configuration documentation incomplete"
+      ],
+      "recent_updates": [
+        "Batch inference throughput improved 3x, released Feb 17",
+        "REST API versioning and error response standardized Feb 20",
+        "Retraining pipeline logging fix scheduled for next release"
+      ]
+    }
+  ]
+}

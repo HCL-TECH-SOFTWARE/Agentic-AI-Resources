@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "request_id": "req_8823_afx",
+    "gateway_id": "GW-North-Facility-04",
+    "firmware_version": "v4.2.1-stable",
+    "region": "us-east-2",
+    "timestamp_received": "2023-10-27T14:15:00.000Z",
+    "status": "success",
+    "record_count": 3
+  },
+  "data": [
+    {
+      "description": "CRITICAL SCENARIO: Heavy Motor Surge & Voltage Sag",
+      "id": "MTR-IND-HYD-01",
+      "type": "3-Phase-Smart-Meter",
+      "location": "Production_Line_A_Hydraulics",
+      "ts": "2023-10-27T14:14:55.000Z",
+      "connectivity": {
+        "signal_strength_dbm": -42,
+        "packet_loss_percent": 0.0
+      },
+      "measurements": {
+        "active_power": {
+          "val": 455.8,
+          "unit": "kW",
+          "trend": "rising_fast"
+        },
+        "reactive_power": {
+          "val": 210.4,
+          "unit": "kVAR"
+        },
+        "power_factor": 0.72,
+        "frequency_hz": 59.8,
+        "voltage": {
+          "phase_a": 460.1,
+          "phase_b": 458.2,
+          "phase_c": 455.5,
+          "avg_imbalance_percent": 1.2
+        },
+        "current": {
+          "phase_a": 602.5,
+          "phase_b": 610.1,
+          "phase_c": 608.4
+        },
+        "thd_percent": {
+          "voltage": 2.1,
+          "current": 8.5
+        }
+      },
+      "sensor_health": {
+        "internal_temp_c": 65.4,
+        "status_code": "WARN_OVERLOAD"
+      }
+    },
+    {
+      "description": "OPTIMIZATION SCENARIO: Phantom Load (High usage during off-hours)",
+      "id": "MTR-ADM-LGT-04",
+      "type": "1-Phase-Sub-Meter",
+      "location": "Admin_Building_Wing_B_Lighting",
+      "ts": "2023-10-27T14:14:56.000Z",
+      "connectivity": {
+        "signal_strength_dbm": -55,
+        "packet_loss_percent": 0.1
+      },
+      "measurements": {
+        "active_power": {
+          "val": 18.2,
+          "unit": "kW",
+          "trend": "stable"
+        },
+        "reactive_power": {
+          "val": 0.5,
+          "unit": "kVAR"
+        },
+        "power_factor": 0.98,
+        "frequency_hz": 60.0,
+        "voltage": {
+          "phase_a": 120.1,
+          "phase_b": null,
+          "phase_c": null,
+          "avg_imbalance_percent": 0.0
+        },
+        "current": {
+          "phase_a": 151.6,
+          "phase_b": null,
+          "phase_c": null
+        },
+        "thd_percent": {
+          "voltage": 0.5,
+          "current": 1.1
+        }
+      },
+      "sensor_health": {
+        "internal_temp_c": 32.1,
+        "status_code": "OK"
+      }
+    },
+    {
+      "description": "NORMAL SCENARIO: Efficient Server Room Operation",
+      "id": "MTR-SRV-UPS-02",
+      "type": "3-Phase-Precision-Meter",
+      "location": "Server_Room_Rack_Row_2",
+      "ts": "2023-10-27T14:14:58.000Z",
+      "connectivity": {
+        "signal_strength_dbm": -38,
+        "packet_loss_percent": 0.0
+      },
+      "measurements": {
+        "active_power": {
+          "val": 12.5,
+          "unit": "kW",
+          "trend": "stable"
+        },
+        "reactive_power": {
+          "val": 0.1,
+          "unit": "kVAR"
+        },
+        "power_factor": 0.99,
+        "frequency_hz": 60.0,
+        "voltage": {
+          "phase_a": 208.1,
+          "phase_b": 208.2,
+          "phase_c": 208.1,
+          "avg_imbalance_percent": 0.05
+        },
+        "current": {
+          "phase_a": 34.6,
+          "phase_b": 34.7,
+          "phase_c": 34.5
+        },
+        "thd_percent": {
+          "voltage": 0.2,
+          "current": 0.4
+        }
+      },
+      "sensor_health": {
+        "internal_temp_c": 24.5,
+        "status_code": "OK"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "Supplier Name": "GreenTech Co.",
+    "Cost": 48000,
+    "Product Quality Score": 88,
+    "On-Time Delivery %": 94,
+    "Performance Score": 85
+  },
+  {
+    "Supplier Name": "Nova Supplies",
+    "Cost": 46000,
+    "Product Quality Score": 91,
+    "On-Time Delivery %": 88,
+    "Performance Score": 82
+  },
+  {
+    "Supplier Name": "Ace Industrial",
+    "Cost": 50000,
+    "Product Quality Score": 79,
+    "On-Time Delivery %": 80,
+    "Performance Score": 75
+  },
+  {
+    "Supplier Name": "Titan Logistics",
+    "Cost": 47000,
+    "Product Quality Score": 93,
+    "On-Time Delivery %": 92,
+    "Performance Score": 90
+  }
+]

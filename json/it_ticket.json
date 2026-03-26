@@ -1,0 +1,76 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "IT-1001",
+      "user_id": "U-501",
+      "issue_title": "Unable to login to company portal",
+      "issue_description": "I forgot my password and cannot login to the company portal.",
+      "reported_system": "Identity Management",
+      "priority_level": "Medium",
+      "ticket_timestamp": "2026-03-01T09:15:00Z"
+    },
+    {
+      "ticket_id": "IT-1002",
+      "user_id": "U-502",
+      "issue_title": "VPN connection failing",
+      "issue_description": "VPN keeps disconnecting and shows authentication failure.",
+      "reported_system": "VPN Gateway",
+      "priority_level": "High",
+      "ticket_timestamp": "2026-03-01T10:02:00Z"
+    },
+    {
+      "ticket_id": "IT-1003",
+      "user_id": "U-503",
+      "issue_title": "Account locked after multiple attempts",
+      "issue_description": "My account got locked after entering the wrong password several times.",
+      "reported_system": "Active Directory",
+      "priority_level": "Medium",
+      "ticket_timestamp": "2026-03-01T10:30:00Z"
+    },
+    {
+      "ticket_id": "IT-1004",
+      "user_id": "U-504",
+      "issue_title": "Cannot access email",
+      "issue_description": "Outlook is not syncing and I cannot access my mailbox.",
+      "reported_system": "Email Server",
+      "priority_level": "High",
+      "ticket_timestamp": "2026-03-01T11:05:00Z"
+    },
+    {
+      "ticket_id": "IT-1005",
+      "user_id": "U-505",
+      "issue_title": "Software installation request",
+      "issue_description": "Need installation of design software on my workstation.",
+      "reported_system": "Endpoint Management",
+      "priority_level": "Low",
+      "ticket_timestamp": "2026-03-01T11:20:00Z"
+    },
+    {
+      "ticket_id": "IT-1006",
+      "user_id": "U-506",
+      "issue_title": "Laptop cannot connect to office WiFi",
+      "issue_description": "My laptop is unable to detect the office wireless network.",
+      "reported_system": "Network Infrastructure",
+      "priority_level": "High",
+      "ticket_timestamp": "2026-03-01T11:50:00Z"
+    },
+    {
+      "ticket_id": "IT-1007",
+      "user_id": "U-507",
+      "issue_title": "Password expired",
+      "issue_description": "My password expired and system is asking me to reset it.",
+      "reported_system": "Identity Management",
+      "priority_level": "Medium",
+      "ticket_timestamp": "2026-03-01T12:10:00Z"
+    },
+    {
+      "ticket_id": "IT-1008",
+      "user_id": "U-508",
+      "issue_title": "VPN access needed",
+      "issue_description": "I cannot access VPN while working remotely.",
+      "reported_system": "VPN Gateway",
+      "priority_level": "Medium",
+      "ticket_timestamp": "2026-03-01T12:45:00Z"
+    }
+  ]
+}

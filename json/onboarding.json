@@ -1,0 +1,21 @@
+{
+  "employee_id": "EMP-4572",
+  "name": "Riya Sharma",
+  "designation": "Software Engineer",
+  "department": "Engineering",
+  "joining_date": "2025-10-10",
+  "onboarding_status": "In Progress",
+  "pending_documents": [
+    "Health Insurance Form",
+    "PF Nomination",
+    "ID Card Request Form"
+  ],
+  "completed_modules": [
+    "Code of Conduct Acknowledgment",
+    "IT Account Setup",
+    "Employee Handbook Review"
+  ],
+  "assigned_hr_representative": "Priya Mehta",
+  "next_action": "Submit Health Insurance Form",
+  "status_last_updated": "2025-10-11"
+}

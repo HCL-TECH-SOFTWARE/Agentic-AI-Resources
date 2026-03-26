@@ -1,0 +1,12 @@
+{
+  "name": "Raj Mehta",
+  "policy_number": "BAJAJ112233",
+  "vehicle_number": "MH12AB1234",
+  "accident_date": "2025-07-11",
+  "location": "Koregaon Park, Pune",
+  "email": "raj.mehta@email.com",
+  "contact_number": "+91-9876543210",
+  "vehicle_model": "Hyundai Verna 2021",
+  "claim_type": "Car Accident",
+  "estimated_damage_amount": 2800
+}

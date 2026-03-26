@@ -1,0 +1,44 @@
+{
+  "industry_benchmarks": {
+    "sector": "Global Electronics & Manufacturing",
+    "fiscal_year": "2025-2026",
+    "standards": [
+      {
+        "kpi_name": "On-Time Delivery",
+        "benchmark_value": 92.5,
+        "unit": "percentage",
+        "threshold_low": 85.0,
+        "description": "Standard lead time compliance across Tier 1 and Tier 2 suppliers."
+      },
+      {
+        "kpi_name": "Product Quality Score",
+        "benchmark_value": 88.0,
+        "unit": "index_out_of_100",
+        "threshold_low": 80.0,
+        "description": "Based on defect rates and ISO compliance audits."
+      },
+      {
+        "kpi_name": "Cost Efficiency Score",
+        "benchmark_value": 85.0,
+        "unit": "index_out_of_100",
+        "threshold_low": 75.0,
+        "description": "Ratio of procurement cost vs. market average."
+      },
+      {
+        "kpi_name": "Escalation Rate",
+        "benchmark_value": 2.0,
+        "unit": "average_count_per_quarter",
+        "threshold_high": 5.0,
+        "description": "Maximum acceptable critical support tickets or delivery disputes."
+      },
+      {
+        "kpi_name": "Vendor Feedback Rating",
+        "benchmark_value": 4.2,
+        "unit": "stars_out_of_5",
+        "threshold_low": 3.5,
+        "description": "Average internal stakeholder satisfaction score."
+      }
+    ],
+    "last_updated": "2026-01-15T08:00:00Z"
+  }
+}

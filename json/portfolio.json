@@ -1,0 +1,55 @@
+
+{
+"holdings": [
+{
+"Ticker Symbol": "RELIANCE.NS",
+"Quantity": 50,
+"Average Cost": 2850.50
+},
+{
+"Ticker Symbol": "TCS.NS",
+"Quantity": 100,
+"Average Cost": 3400.00
+},
+{
+"Ticker Symbol": "HDFCBANK.NS",
+"Quantity": 150,
+"Average Cost": 1650.75
+},
+{
+"Ticker Symbol": "INFY.NS",
+"Quantity": 200,
+"Average Cost": 1520.00
+},
+{
+"Ticker Symbol": "ICICIBANK.NS",
+"Quantity": 300,
+"Average Cost": 980.25
+},
+{
+"Ticker Symbol": "HINDUNILVR.NS",
+"Quantity": 75,
+"Average Cost": 2550.00
+},
+{
+"Ticker Symbol": "BHARTIARTL.NS",
+"Quantity": 120,
+"Average Cost": 890.50
+},
+{
+"Ticker Symbol": "TATAMOTORS.NS",
+"Quantity": 250,
+"Average Cost": 650.00
+},
+{
+"Ticker Symbol": "ADANIENT.NS",
+"Quantity": 40,
+"Average Cost": 3100.00
+},
+{
+"Ticker Symbol": "NIFTYBEES.NS",
+"Quantity": 500,
+"Average Cost": 225.50
+}
+]
+}

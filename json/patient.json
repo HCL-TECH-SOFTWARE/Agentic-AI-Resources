@@ -1,0 +1,42 @@
+[
+  {
+    "patient_id": "P1023",
+    "name": "Rahul Verma",
+    "request_type": "Appointment Booking",
+    "requested_time": "2025-10-12 10:30",
+    "query": "Request follow-up for cardiology consultation",
+    "claims_doc_submitted": false
+  },
+  {
+    "patient_id": "P1024",
+    "name": "Anita Sharma",
+    "request_type": "Query",
+    "requested_time": null,
+    "query": "Check status of last routine check-up",
+    "claims_doc_submitted": true
+  },
+  {
+    "patient_id": "P1025",
+    "name": "Vikram Singh",
+    "request_type": "Appointment Booking",
+    "requested_time": "2025-10-14 09:00",
+    "query": "Schedule dermatology consultation",
+    "claims_doc_submitted": false
+  },
+  {
+    "patient_id": "P1026",
+    "name": "Neha Jain",
+    "request_type": "Cancellation",
+    "requested_time": "2025-10-15 11:30",
+    "query": "Cancel orthopedic consultation",
+    "claims_doc_submitted": true
+  },
+  {
+    "patient_id": "P1027",
+    "name": "Amit Mehra",
+    "request_type": "Appointment Booking",
+    "requested_time": "2025-10-16 13:00",
+    "query": "Book cardiology consultation",
+    "claims_doc_submitted": false
+  }
+]

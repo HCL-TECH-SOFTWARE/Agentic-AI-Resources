@@ -1,0 +1,71 @@
+
+{
+  "riskAssessmentResult": {
+    "assessmentId": "SRA-20250619-001",
+    "generatedAt": "2025-06-19T17:15:00Z",
+    "assessments": [
+      {
+        "supplierId": "SUP-XYZ-001",
+        "supplierName": "Global Materials Corp.",
+        "overallRiskScore": 75,
+        "riskLevel": "Medium",
+        "categoryAssessments": [
+          {
+            "category": "Financial Stability",
+            "score": 85,
+            "level": "Low Risk",
+            "findings": "Strong balance sheet, consistent profitability over past 5 years. Healthy cash flow.",
+            "dataSources": ["Bloomberg Financial Data", "Public Annual Reports"]
+          },
+          {
+            "category": "Operational Resilience",
+            "score": 60,
+            "level": "Medium Risk",
+            "findings": "Concentration of production facilities in single earthquake-prone region. Recent minor delays due to labor shortages.",
+            "dataSources": ["Supplier Survey", "Industry News Feeds"]
+          },
+          {
+            "category": "Geopolitical Risk",
+            "score": 70,
+            "level": "Medium Risk",
+            "findings": "Operations in politically stable country, but raw material sourcing from a region with moderate political instability.",
+            "dataSources": ["Global Risk Index", "Political Analyst Reports"]
+          },
+          {
+            "category": "Compliance & Ethics",
+            "score": 90,
+            "level": "Low Risk",
+            "findings": "No historical compliance breaches found. Robust internal ethics policies.",
+            "dataSources": ["Compliance Database Check", "Supplier Self-Assessment"]
+          },
+          {
+            "category": "Environmental & Social Governance (ESG)",
+            "score": 65,
+            "level": "Medium Risk",
+            "findings": "Good environmental policies, but recent concerns raised regarding labor practices at a sub-supplier in their supply chain.",
+            "dataSources": ["ESG Rating Agencies", "NGO Reports"]
+          }
+        ],
+        "mitigationRecommendations": [
+          "Request detailed disaster recovery plans for primary production facility.",
+          "Explore diversifying raw material sourcing to mitigate geopolitical risks.",
+          "Request corrective action plan and audit results for sub-supplier labor practices."
+        ],
+        "futureOutlook": "Risk expected to remain stable, with potential for slight increase in operational risk if diversification is not pursued."
+      },
+      {
+        "supplierId": "SUP-ABC-002",
+        "supplierName": "Precision Components Ltd.",
+        "overallRiskScore": 88,
+        "riskLevel": "Low",
+        "categoryAssessments": [
+        ],
+        "mitigationRecommendations": [
+          "Continue regular performance reviews.",
+          "Monitor geopolitical developments in key transit regions."
+        ],
+        "futureOutlook": "Low risk profile expected to be maintained."
+      }
+    ]
+  }
+}

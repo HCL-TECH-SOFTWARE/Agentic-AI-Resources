@@ -1,0 +1,50 @@
+{
+  "policy_number": "P123456",
+  "policy_holder_name": "Rhea Sharma",
+  "date_of_birth": "1990-03-15",
+  "claim_type": "Health – Hospitalization + Diagnostics",
+  "hospital_name": "Fortis Hospital, Delhi",
+  "admission_date": "2025-06-15",
+  "discharge_date": "2025-06-20",
+  "diagnosis": "Acute Appendicitis",
+  "treatment_undertaken": "Laparoscopic Appendectomy",
+  "attending_doctor": "Dr. Meera Sinha",
+  "claimed_items": [
+    {
+      "item_description": "Room Charges (5 days)",
+      "bill_date": "2025-06-20",
+      "amount_inr": 25000
+    },
+    {
+      "item_description": "Surgery Fees",
+      "bill_date": "2025-06-20",
+      "amount_inr": 50000
+    },
+    {
+      "item_description": "Medicines & Consumables",
+      "bill_date": "2025-06-20",
+      "amount_inr": 18500
+    },
+    {
+      "item_description": "Diagnostic Tests",
+      "bill_date": "2025-06-16",
+      "amount_inr": 8000
+    },
+    {
+      "item_description": "Consultation Fees",
+      "bill_date": "2025-06-20",
+      "amount_inr": 3500
+    }
+  ],
+  "total_claimed_amount": 105000,
+  "supporting_documents_attached": [
+    "Hospital Discharge Summary",
+    "Itemized Medical Bills",
+    "Doctor’s Certificate",
+    "Diagnostics Lab Reports",
+    "KYC (Aadhaar)"
+  ],
+  "declaration": "I hereby declare that the above information is accurate to the best of my knowledge and all submitted bills are genuine and related to my hospitalization.",
+  "signed_by": "Rhea Sharma",
+  "submission_date": "2025-06-21"
+}
