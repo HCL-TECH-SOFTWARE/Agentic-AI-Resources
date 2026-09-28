@@ -1,3 +1,88 @@
 {
-  "url": "https://raw.githubusercontent.com/elavarasan-sound/AgenticAI_Resources/main/json/data_clustering.json"
+  "transactions": [
+    {
+      "Transaction ID": "TX001",
+      "Client Name": "Acme Corp",
+      "Amount (USD)": 12500,
+      "Date": "2025-06-01",
+      "Region": "North"
+    },
+    {
+      "Transaction ID": "TX002",
+      "Client Name": "Beta LLC",
+      "Amount (USD)": 8900,
+      "Date": "2025-06-01",
+      "Region": "North"
+    },
+    {
+      "Transaction ID": "TX003",
+      "Client Name": "Acme Corp",
+      "Amount (USD)": 13000,
+      "Date": "2025-06-02",
+      "Region": "South"
+    },
+    {
+      "Transaction ID": "TX004",
+      "Client Name": "Gamma Inc",
+      "Amount (USD)": 4500,
+      "Date": "2025-06-02",
+      "Region": "North"
+    },
+    {
+      "Transaction ID": "TX005",
+      "Client Name": "Beta LLC",
+      "Amount (USD)": 9100,
+      "Date": "2025-06-03",
+      "Region": "South"
+    },
+    {
+      "Transaction ID": "TX006",
+      "Client Name": "Delta Co",
+      "Amount (USD)": 7200,
+      "Date": "2025-06-03",
+      "Region": "East"
+    },
+    {
+      "Transaction ID": "TX007",
+      "Client Name": "Acme Corp",
+      "Amount (USD)": 11800,
+      "Date": "2025-06-04",
+      "Region": "North"
+    },
+    {
+      "Transaction ID": "TX008",
+      "Client Name": "Gamma Inc",
+      "Amount (USD)": 5000,
+      "Date": "2025-06-04",
+      "Region": "South"
+    },
+    {
+      "Transaction ID": "TX009",
+      "Client Name": "Beta LLC",
+      "Amount (USD)": 8950,
+      "Date": "2025-06-05",
+      "Region": "East"
+    },
+    {
+      "Transaction ID": "TX010",
+      "Client Name": "Delta Co",
+      "Amount (USD)": 7500,
+      "Date": "2025-06-05",
+      "Region": "East"
+    },
+    {
+      "Transaction ID": "TX011",
+      "Client Name": "Acme Corp",
+      "Amount (USD)": 12200,
+      "Date": "2025-06-06",
+      "Region": "South"
+    },
+    {
+      "Transaction ID": "TX012",
+      "Client Name": "Gamma Inc",
+      "Amount (USD)": 4750,
+      "Date": "2025-06-06",
+      "Region": "North"
+    }
+  ]
 }
